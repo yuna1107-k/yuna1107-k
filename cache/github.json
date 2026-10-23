@@ -4,8 +4,8 @@
   "url": "https://github.com/yuna1107-k"
  },
  "totals": {
-  "contributions": 1241,
-  "commits": 58,
+  "contributions": 1244,
+  "commits": 61,
   "pullRequests": 34,
   "issues": 50,
   "reviews": 0,
@@ -1830,7 +1830,7 @@
   {
    "date": "2026-10-21",
    "level": 1,
-   "count": 16
+   "count": 19
   },
   {
    "date": "2026-10-22",
@@ -1877,6 +1877,14 @@
    "commits": 5
   },
   {
+   "name": "Uyatame-CD-Ripping-Tool-UCRT",
+   "url": "https://github.com/uyatame/Uyatame-CD-Ripping-Tool-UCRT",
+   "isPrivate": false,
+   "language": "Kotlin",
+   "color": "#A97BFF",
+   "commits": 3
+  },
+  {
    "name": "Public_CrazyClock",
    "url": "https://github.com/yuna1107-k/Public_CrazyClock",
    "isPrivate": false,
@@ -1898,14 +1906,6 @@
    "isPrivate": false,
    "language": "JavaScript",
    "color": "#f1e05a",
-   "commits": 1
-  },
-  {
-   "name": "Ring-NFC",
-   "url": "https://github.com/yuna1107-k/Ring-NFC",
-   "isPrivate": false,
-   "language": "Python",
-   "color": "#3572A5",
    "commits": 1
   }
  ],
@@ -1933,7 +1933,7 @@
   {
    "name": "Kotlin",
    "color": "#A97BFF",
-   "commits": 5
+   "commits": 8
   },
   {
    "name": "C++",
@@ -1941,5 +1941,5 @@
    "commits": 3
   }
  ],
- "updatedAt": "2026-10-23T09:43:58.753Z"
+ "updatedAt": "2026-10-23T23:45:44.204Z"
 }
