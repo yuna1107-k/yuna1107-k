@@ -1,8 +1,11 @@
 // Profile content, copied from yuna1107.com.
 export const SITE = 'https://yuna1107.com';
+// The site's Worker is also served on workers.dev. Cloudflare's bot protection on
+// yuna1107.com blocks GitHub Actions runners, so the build falls back to it.
+const WORKER = 'https://yuna1107-com.hn19t07m.workers.dev';
 export const API = {
-  github: `${SITE}/api/github`,
-  music: `${SITE}/api/music`,
+  github: [`${SITE}/api/github`, `${WORKER}/api/github`],
+  music: [`${SITE}/api/music`, `${WORKER}/api/music`],
 };
 
 export const hero = {

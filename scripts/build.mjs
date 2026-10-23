@@ -16,15 +16,18 @@ async function save(name, theme, svg) {
   written.add(name);
 }
 
-async function fetchJson(url) {
-  try {
-    const res = await fetch(url, { headers: { 'cache-control': 'no-cache' } });
-    if (!res.ok) throw new Error(res.status);
-    return await res.json();
-  } catch (e) {
-    console.warn(`! ${url}: ${e.message} (keeping previous cards)`);
-    return null;
+async function fetchJson(urls) {
+  for (const url of urls) {
+    try {
+      const res = await fetch(url, { headers: { 'cache-control': 'no-cache' } });
+      if (!res.ok) throw new Error(res.status);
+      return await res.json();
+    } catch (e) {
+      console.warn(`! ${url}: ${e.message}`);
+    }
   }
+  console.warn('! all sources failed (keeping previous cards)');
+  return null;
 }
 
 const textGrad = (doc, x, w) => doc.textGradient(x, w, [[0.2, doc.t.text], [0.6, doc.t.accent], [1, doc.t.violet]]);
