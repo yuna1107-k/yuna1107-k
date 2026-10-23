@@ -236,8 +236,7 @@ async function profile(t, gh, mu, images) {
 function readme() {
   const alt = [`${C.hero.name} — ${C.hero.taglineJa} / ${C.hero.taglineEn}`, C.about.role, ...C.about.bio].join(' ');
   const pic = `<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg"><img src="./assets/profile-light.svg" alt="${esc(alt)}" width="100%"></picture>`;
-  const linkRow = C.contacts.map((c) => `<a href="${c.href}">${esc(c.label)}</a>`).join(' · ');
-  return ['<div align="center">', '', `<a href="${C.SITE}">${pic}</a>`, '', `<sub>${linkRow}</sub>`, '', '</div>', ''].join('\n');
+  return ['<div align="center">', '', `<a href="${C.SITE}">${pic}</a>`, '', '</div>', ''].join('\n');
 }
 
 /* ---------- Main ---------- */
