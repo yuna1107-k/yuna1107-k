@@ -12,7 +12,6 @@ export const hero = {
   name: 'yuna1107',
   taglineJa: '情報技術は世界を変える',
   taglineEn: 'Information technology is changing the world',
-  nav: ['About Me', 'Products', 'Activity', 'Contact'],
 };
 
 export const about = {

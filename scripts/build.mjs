@@ -36,46 +36,13 @@ const jstDate = (iso) => new Date(iso || Date.now()).toLocaleDateString('ja-JP',
 
 /* ---------- Sections. Each draws from y and returns the next y. ---------- */
 
-async function header(doc) {
-  const t = doc.t;
-  let b = `<rect width="${W}" height="62" ${fill(t.header)}/><rect y="61" width="${W}" height="1" ${fill(t.cardBorder)}/>`;
-  b += text(C.hero.name, { x: 30, y: 39, size: 21, weight: 700, ls: 0.5, color: t.text });
-  let x = W - 26 - 40;
-  b += `<circle cx="${x + 20}" cy="31" r="20" ${fill(t.glassSubtle)} ${stroke(t.border)}/>`;
-  b += await icon('moon', x + 12, 23, 16, t.text2);
-  x -= 14;
-  for (const name of ['envelope', 'x-twitter', 'github']) {
-    x -= 18;
-    b += await icon(name, x, 22, 18, t.text2);
-    x -= 16;
-  }
-  x -= 6;
-  for (const label of [...C.hero.nav].reverse()) {
-    x -= measure(label, 15);
-    b += text(label, { x, y: 36, size: 15, weight: 700, color: t.text2 });
-    x -= 28;
-  }
-  return { b, y: 62 };
-}
-
 function hero(doc, y) {
   const t = doc.t, cx = W / 2, tw = measure(C.hero.name, 76);
   const grad = doc.textGradient(cx - tw / 2, tw, [[0.2, t.text], [0.6, t.accent], [1, t.violet]]);
-  let b = text(C.hero.name, { x: cx, y: y + 126, size: 76, weight: 700, anchor: 'middle', ls: -0.5, color: grad });
-  b += text(C.hero.taglineJa, { x: cx, y: y + 178, size: 20, anchor: 'middle', ls: 1, color: t.text2 });
-  b += text(C.hero.taglineEn, { x: cx, y: y + 210, size: 17, anchor: 'middle', ls: 1, color: t.text2 });
-  return { b, y: y + 256 };
-}
-
-async function links(doc, y) {
-  const t = doc.t, d = 48, gap = 16, n = C.contacts.length;
-  let x = (W - (n * d + (n - 1) * gap)) / 2, b = '';
-  for (const c of C.contacts) {
-    b += doc.card({ x, y, w: d, h: d, r: d / 2 });
-    b += await icon(c.icon, x + d / 2 - 10, y + d / 2 - 10, 20, t.tagText);
-    x += d + gap;
-  }
-  return { b, y: y + d + 40 };
+  let b = text(C.hero.name, { x: cx, y: y + 116, size: 76, weight: 700, anchor: 'middle', ls: -0.5, color: grad });
+  b += text(C.hero.taglineJa, { x: cx, y: y + 168, size: 20, anchor: 'middle', ls: 1, color: t.text2 });
+  b += text(C.hero.taglineEn, { x: cx, y: y + 200, size: 17, anchor: 'middle', ls: 1, color: t.text2 });
+  return { b, y: y + 244 };
 }
 
 function title(doc, y, label) {
@@ -213,9 +180,7 @@ async function profile(t, gh, mu, images) {
   const doc = new Doc(t, W, 0, { title: `${C.hero.name} — ${C.hero.taglineJa}`, animate: true });
   const parts = [];
   const add = (r) => { parts.push(r.b); return r.y; };
-  let y = add(await header(doc));
-  y = add(hero(doc, y));
-  y = add(await links(doc, y));
+  let y = add(hero(doc, 0));
   y = add(title(doc, y, 'About Me'));
   y = add(await about(doc, y));
   if (mu) { y = add(title(doc, y, 'Music')); y = add(await music(doc, y, mu, images)); }
@@ -231,12 +196,31 @@ async function profile(t, gh, mu, images) {
   await writeFile(path.join(OUT, `profile-${t.name}.svg`), await doc.render(body));
 }
 
+/* ---------- Link icons under the card ---------- */
+
+// Small round glass buttons. Each is its own image so it can be a link; neighbours share one backdrop.
+const LINK = { W: 60, H: 74, d: 44 };
+async function linkIcon(t, c, i, count) {
+  const doc = new Doc(t, LINK.W, LINK.H, { title: c.label });
+  const x = (LINK.W - LINK.d) / 2, y = 8, r = LINK.d / 2;
+  const clip = doc.id('c');
+  doc.defs.push(`<clipPath id="${clip}"><circle cx="${x + r}" cy="${y + r}" r="${r}"/></clipPath>`);
+  const glass = doc.card({ x, y, w: LINK.d, h: LINK.d, r });
+  const split = glass.indexOf('</g>') + 4; // shadow first, then the backdrop, then the glass
+  let b = glass.slice(0, split)
+    + `<g clip-path="url(#${clip})"><g transform="translate(${-i * LINK.W} 0)">${doc.backdrop(count * LINK.W, LINK.H * 4)}</g></g>`
+    + glass.slice(split);
+  b += await icon(c.icon, x + r - 9, y + r - 9, 18, t.tagText);
+  await writeFile(path.join(OUT, `link-${c.id}-${t.name}.svg`), await doc.render(b));
+}
+
 /* ---------- README ---------- */
 
 function readme() {
   const alt = [`${C.hero.name} — ${C.hero.taglineJa} / ${C.hero.taglineEn}`, C.about.role, ...C.about.bio].join(' ');
   const pic = `<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg"><img src="./assets/profile-light.svg" alt="${esc(alt)}" width="100%"></picture>`;
-  return ['<div align="center">', '', `<a href="${C.SITE}">${pic}</a>`, '', '</div>', ''].join('\n');
+  const icons = C.contacts.map((c) => `<a href="${c.href}" title="${esc(c.label)}"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-${c.id}-dark.svg"><img src="./assets/link-${c.id}-light.svg" alt="${esc(c.label)}" width="54"></picture></a>`).join('');
+  return ['<div align="center">', '', `<a href="${C.SITE}">${pic}</a>`, '', icons, '', '</div>', ''].join('\n');
 }
 
 /* ---------- Main ---------- */
@@ -257,10 +241,13 @@ if (mu.data) {
   }));
 }
 
-for (const t of Object.values(THEMES)) await profile(t, gh.data, mu.data, images);
+for (const t of Object.values(THEMES)) {
+  await profile(t, gh.data, mu.data, images);
+  for (const [i, c] of C.contacts.entries()) await linkIcon(t, c, i, C.contacts.length);
+}
 
 // Remove cards from older layouts.
-for (const f of await readdir(OUT)) if (!/^profile-(light|dark)\.svg$/.test(f)) await rm(path.join(OUT, f));
+for (const f of await readdir(OUT)) if (!/^(profile|link-[a-z0-9]+)-(light|dark)\.svg$/.test(f)) await rm(path.join(OUT, f));
 await writeFile(path.join(ROOT, 'README.md'), readme());
 const state = (r) => (r.data ? (r.fresh ? 'fresh' : 'cached') : 'none');
 console.log(`built profile card (github: ${state(gh)}, music: ${state(mu)})`);
