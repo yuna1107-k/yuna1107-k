@@ -4,8 +4,8 @@
   "url": "https://github.com/yuna1107-k"
  },
  "totals": {
-  "contributions": 1235,
-  "commits": 52,
+  "contributions": 1239,
+  "commits": 56,
   "pullRequests": 34,
   "issues": 50,
   "reviews": 0,
@@ -1840,7 +1840,7 @@
   {
    "date": "2026-10-23",
    "level": 1,
-   "count": 25
+   "count": 29
   }
  ],
  "repositories": [
@@ -1859,6 +1859,14 @@
    "language": "JavaScript",
    "color": "#f1e05a",
    "commits": 16
+  },
+  {
+   "name": "yuna1107-k",
+   "url": "https://github.com/yuna1107-k/yuna1107-k",
+   "isPrivate": false,
+   "language": "JavaScript",
+   "color": "#f1e05a",
+   "commits": 6
   },
   {
    "name": "HCE_Android",
@@ -1885,14 +1893,6 @@
    "commits": 3
   },
   {
-   "name": "yuna1107-k",
-   "url": "https://github.com/yuna1107-k/yuna1107-k",
-   "isPrivate": false,
-   "language": "JavaScript",
-   "color": "#f1e05a",
-   "commits": 2
-  },
-  {
    "name": "qr-code-animation",
    "url": "https://github.com/yuna1107-k/qr-code-animation",
    "isPrivate": false,
@@ -1916,14 +1916,14 @@
    "commits": 26
   },
   {
+   "name": "JavaScript",
+   "color": "#f1e05a",
+   "commits": 23
+  },
+  {
    "name": "TypeScript",
    "color": "#3178c6",
    "commits": 20
-  },
-  {
-   "name": "JavaScript",
-   "color": "#f1e05a",
-   "commits": 19
   },
   {
    "name": "Python",
@@ -1941,5 +1941,5 @@
    "commits": 3
   }
  ],
- "updatedAt": "2026-10-23T09:20:35.080Z"
+ "updatedAt": "2026-10-23T09:29:38.041Z"
 }
