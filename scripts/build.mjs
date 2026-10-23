@@ -218,9 +218,10 @@ async function linkIcon(t, c, i, count) {
 
 function readme() {
   const alt = [`${C.hero.name} — ${C.hero.taglineJa} / ${C.hero.taglineEn}`, C.about.role, ...C.about.bio].join(' ');
+  // The card has no link (only the icons do); a bare <a name> stops GitHub from linking it to the raw image.
   const pic = `<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg"><img src="./assets/profile-light.svg" alt="${esc(alt)}" width="100%"></picture>`;
   const icons = C.contacts.map((c) => `<a href="${c.href}" title="${esc(c.label)}"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-${c.id}-dark.svg"><img src="./assets/link-${c.id}-light.svg" alt="${esc(c.label)}" width="54"></picture></a>`).join('');
-  return ['<div align="center">', '', `<a href="${C.SITE}">${pic}</a>`, '', icons, '', '</div>', ''].join('\n');
+  return ['<div align="center">', '', `<a name="profile">${pic}</a>`, '', icons, '', '</div>', ''].join('\n');
 }
 
 /* ---------- Main ---------- */
