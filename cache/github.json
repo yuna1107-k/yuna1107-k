@@ -5,11 +5,11 @@
  },
  "totals": {
   "contributions": 1235,
-  "commits": 52,
+  "commits": 53,
   "pullRequests": 34,
   "issues": 50,
   "reviews": 0,
-  "private": 1088
+  "private": 1087
  },
  "days": [
   {
@@ -1869,6 +1869,14 @@
    "commits": 5
   },
   {
+   "name": "yuna1107-k",
+   "url": "https://github.com/yuna1107-k/yuna1107-k",
+   "isPrivate": false,
+   "language": "JavaScript",
+   "color": "#f1e05a",
+   "commits": 3
+  },
+  {
    "name": "Public_CrazyClock",
    "url": "https://github.com/yuna1107-k/Public_CrazyClock",
    "isPrivate": false,
@@ -1883,14 +1891,6 @@
    "language": "Dart",
    "color": "#00B4AB",
    "commits": 3
-  },
-  {
-   "name": "yuna1107-k",
-   "url": "https://github.com/yuna1107-k/yuna1107-k",
-   "isPrivate": false,
-   "language": "JavaScript",
-   "color": "#f1e05a",
-   "commits": 2
   },
   {
    "name": "qr-code-animation",
@@ -1923,7 +1923,7 @@
   {
    "name": "JavaScript",
    "color": "#f1e05a",
-   "commits": 19
+   "commits": 20
   },
   {
    "name": "Python",
@@ -1941,5 +1941,5 @@
    "commits": 3
   }
  ],
- "updatedAt": "2026-10-23T09:21:03.664Z"
+ "updatedAt": "2026-10-23T09:21:48.598Z"
 }
