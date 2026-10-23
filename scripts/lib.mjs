@@ -9,23 +9,23 @@ export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '
 export const THEMES = {
   light: {
     name: 'light',
-    text: '#13263a', text2: '#4b6179', muted: '#6d8497',
-    accent: '#0099ff', violet: '#818cf8',
-    glass: ['#ffffff', 0.46], glassStrong: ['#ffffff', 0.72], glassSubtle: ['#ffffff', 0.26],
+    text: '#13263a', text2: '#3b5168', muted: '#4f667b',
+    accent: '#0099ff', accentText: '#0062a8', violet: '#818cf8',
+    glass: ['#ffffff', 0.6], glassStrong: ['#ffffff', 0.72], glassSubtle: ['#ffffff', 0.26],
     header: ['#f4faff', 0.62],
     border: ['#ffffff', 0.7], edge: ['#ffffff', 0.95], edgeLow: ['#ffffff', 0.35], sheen: ['#ffffff', 0.9],
     cardBorder: ['#13263a', 0.1],
     shadow: [['#184e80', 0.12, 6, 8], ['#184e80', 0.06, 1, 1.5]],
-    tagBg: ['#0099ff', 0.13], tagText: '#0070c0',
+    tagBg: ['#0099ff', 0.13], tagText: '#0062a8',
     orbs: [['#38bdf8', 0.55], ['#818cf8', 0.42], ['#2dd4bf', 0.4], ['#f472b6', 0.3]],
     bg: [['#f3f9ff', 0], ['#e2f1fc', 0.45], ['#eaf0ff', 1]],
     heat: [['#13263a', 0.08], ['#bae6fd', 1], ['#7dd3fc', 1], ['#0ea5e9', 1], ['#0369a1', 1]],
   },
   dark: {
     name: 'dark',
-    text: '#e6f3fd', text2: '#9fb3c6', muted: '#72879b',
-    accent: '#38bdf8', violet: '#818cf8',
-    glass: ['#162036', 0.46], glassStrong: ['#18223a', 0.78], glassSubtle: ['#162036', 0.26],
+    text: '#e6f3fd', text2: '#b0c3d4', muted: '#90a4b7',
+    accent: '#38bdf8', accentText: '#5cc8f8', violet: '#818cf8',
+    glass: ['#162036', 0.58], glassStrong: ['#18223a', 0.78], glassSubtle: ['#162036', 0.26],
     header: ['#060b16', 0.62],
     border: ['#ffffff', 0.12], edge: ['#ffffff', 0.22], edgeLow: ['#ffffff', 0.05], sheen: ['#ffffff', 0.32],
     cardBorder: ['#ffffff', 0.1],
@@ -226,22 +226,28 @@ export class Doc {
 <feDropShadow dx="0" dy="${dy2}" stdDeviation="${b2}" flood-color="${c2}" flood-opacity="${a2}"/></filter>`);
   }
 
-  // The page backdrop: soft gradient and four colored orbs, laid out like the site's .site-backdrop.
+  // The page backdrop: soft gradient and colored orbs laid out like the site's .site-backdrop.
+  // A tall canvas repeats the layout every "screen" so the orbs run the full length.
   backdrop(VW, VH) {
     const t = this.t;
     this.once('bg', `<linearGradient id="bg" x1="0.33" y1="0" x2="0.67" y2="1">${
       t.bg.map(([c, o]) => `<stop offset="${o}" stop-color="${c}"/>`).join('')}</linearGradient>`);
     t.orbs.forEach(([c, a], i) => this.once(`orb${i}`,
       `<radialGradient id="orb${i}"><stop offset="0" stop-color="${c}" stop-opacity="${a}"/><stop offset="0.65" stop-color="${c}" stop-opacity="0"/></radialGradient>`));
-    const v = Math.max(VW, VH) / 100;
-    const orbs = [
-      [10 * v, 6 * v, 40 * v],
-      [VW - 3 * v, 0.04 * VH + 33 * v, 33 * v],
-      [0.1 * VW + 30 * v, VH + 2 * v, 30 * v],
-      [4 * v, 0.4 * VH + 22 * v, 22 * v],
-    ];
-    return `<rect width="${VW}" height="${VH}" fill="url(#bg)"/>${orbs.map(([cx, cy, r], i) =>
-      `<g class="orb orb${i + 1}"><circle cx="${r1(cx)}" cy="${r1(cy)}" r="${r1(r)}" fill="url(#orb${i})"/></g>`).join('')}`;
+    const S = Math.min(VH, VW * 0.75), v = Math.max(VW, S) / 100;
+    let out = `<rect width="${VW}" height="${VH}" fill="url(#bg)"/>`;
+    for (let k = 0; k * S < VH; k++) {
+      const oy = k * S;
+      const orbs = [
+        [10 * v, 6 * v, 40 * v],
+        [VW - 3 * v, 0.04 * S + 33 * v, 33 * v],
+        [0.1 * VW + 30 * v, S + 2 * v, 30 * v],
+        [4 * v, 0.4 * S + 22 * v, 22 * v],
+      ];
+      out += orbs.map(([cx, cy, r], i) =>
+        `<g class="orb orb${i + 1}"><circle cx="${r1(cx)}" cy="${r1(oy + cy)}" r="${r1(r)}" fill="url(#orb${(i + k) % 4})"/></g>`).join('');
+    }
+    return out;
   }
 
   // Glass edges: thin border, top highlight and diagonal sheen like the site's glass mixins.
@@ -255,15 +261,12 @@ export class Doc {
       + `<rect ${box} fill="none" stroke="url(#${sheen})" stroke-width="1" opacity="0.8"/>`;
   }
 
-  // A glass panel on a plain background: it carries its own slice of the page backdrop,
-  // placed at (vx, vy) of a virtual page VW x VH so neighbouring cards look continuous.
-  frosted({ x, y, w, h, r, vx = x, vy = y, VW = this.w, VH = this.h, glass = 'glass', shadow = true }) {
-    const clip = this.id('c');
-    this.defs.push(`<clipPath id="${clip}"><rect x="${r1(x)}" y="${r1(y)}" width="${r1(w)}" height="${r1(h)}" rx="${r}"/></clipPath>`);
-    const sh = shadow ? `<rect x="${r1(x)}" y="${r1(y)}" width="${r1(w)}" height="${r1(h)}" rx="${r}" fill="${this.t.bg[1][0]}" filter="url(#${this.shadowFilter()})"/>` : '';
-    return `${sh}<g clip-path="url(#${clip})"><g transform="translate(${r1(x - vx)} ${r1(y - vy)})">${this.backdrop(VW, VH)}</g>`
-      + `<rect x="${r1(x)}" y="${r1(y)}" width="${r1(w)}" height="${r1(h)}" ${fill(this.t[glass])}/></g>`
-      + this.glassEdges({ x, y, w, h, r });
+  // Glass card on top of the backdrop, with a drop shadow that stays outside the card.
+  card({ x, y, w, h, r, glass = 'glass' }) {
+    const mask = this.id('m');
+    const box = `x="${r1(x)}" y="${r1(y)}" width="${r1(w)}" height="${r1(h)}" rx="${r}"`;
+    this.defs.push(`<mask id="${mask}" maskUnits="userSpaceOnUse" x="${r1(x - 40)}" y="${r1(y - 40)}" width="${r1(w + 80)}" height="${r1(h + 90)}"><rect x="${r1(x - 40)}" y="${r1(y - 40)}" width="${r1(w + 80)}" height="${r1(h + 90)}" fill="#fff"/><rect ${box} fill="#000"/></mask>`);
+    return `<g mask="url(#${mask})"><rect ${box} fill="${this.t.bg[1][0]}" filter="url(#${this.shadowFilter()})"/></g>` + this.glass({ x, y, w, h, r, glass });
   }
 
   // Glass on top of a backdrop that is already drawn.
