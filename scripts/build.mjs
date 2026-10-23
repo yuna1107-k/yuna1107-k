@@ -42,7 +42,21 @@ function hero(doc, y) {
   let b = text(C.hero.name, { x: cx, y: y + 116, size: 76, weight: 700, anchor: 'middle', ls: -0.5, color: grad });
   b += text(C.hero.taglineJa, { x: cx, y: y + 168, size: 20, anchor: 'middle', ls: 1, color: t.text2 });
   b += text(C.hero.taglineEn, { x: cx, y: y + 200, size: 17, anchor: 'middle', ls: 1, color: t.text2 });
-  return { b, y: y + 244 };
+  return { b, y: y + 222 };
+}
+
+// The icon row. Each icon is its own slice of the card so it can carry a link.
+const ROW = { d: 48, slot: 64, h: 80 };
+async function links(doc, y) {
+  const t = doc.t, n = C.contacts.length, x0 = (W - n * ROW.slot) / 2;
+  const icons = [];
+  for (const [i, c] of C.contacts.entries()) {
+    const sx = x0 + i * ROW.slot, x = sx + (ROW.slot - ROW.d) / 2, iy = y + (ROW.h - ROW.d) / 2 - 4;
+    let b = doc.card({ x, y: iy, w: ROW.d, h: ROW.d, r: ROW.d / 2 });
+    b += await icon(c.icon, x + ROW.d / 2 - 10, iy + ROW.d / 2 - 10, 20, t.tagText);
+    icons.push({ c, b, box: [sx, y, ROW.slot, ROW.h] });
+  }
+  return { icons, x0, y: y + ROW.h };
 }
 
 function title(doc, y, label) {
@@ -176,52 +190,61 @@ function github(doc, y0, data) {
 
 /* ---------- The whole card ---------- */
 
+// Lays out the whole card, then cuts it into slices: everything above the icon row,
+// one slice per icon (and the two ends of the row), and everything below.
 async function profile(t, gh, mu, images) {
-  const doc = new Doc(t, W, 0, { title: `${C.hero.name} — ${C.hero.taglineJa}`, animate: true });
-  const parts = [];
-  const add = (r) => { parts.push(r.b); return r.y; };
-  let y = add(hero(doc, 0));
-  y = add(title(doc, y, 'About Me'));
-  y = add(await about(doc, y));
-  if (mu) { y = add(title(doc, y, 'Music')); y = add(await music(doc, y, mu, images)); }
-  if (gh) { y = add(title(doc, y, 'GitHub')); y = add(github(doc, y, gh)); }
-  parts.push(text(`© ${new Date().getFullYear()} yuna1107 · yuna1107.com`, { x: W / 2, y: y + 4, size: 13, anchor: 'middle', color: t.text2 }));
+  const doc = new Doc(t, W, 0, { title: `${C.hero.name} — ${C.hero.taglineJa}` });
+  const parts = []; // { b, y0, y1 } — kept in each slice they overlap (with room for shadows)
+  const add = (y0, r) => { parts.push({ b: r.b, y0, y1: r.y }); return r.y; };
+  let y = add(0, hero(doc, 0));
+  const row = await links(doc, y);
+  for (const ic of row.icons) parts.push({ b: ic.b, y0: ic.box[1], y1: ic.box[1] + ic.box[3], x0: ic.box[0], x1: ic.box[0] + ic.box[2] });
+  const rowY = y;
+  y = row.y + 8;
+  y = add(y, title(doc, y, 'About Me'));
+  y = add(y, await about(doc, y));
+  if (mu) { y = add(y, title(doc, y, 'On Repeat')); y = add(y, await music(doc, y, mu, images)); }
+  if (gh) { y = add(y, title(doc, y, 'GitHub')); y = add(y, github(doc, y, gh)); }
+  parts.push({ b: text(`© ${new Date().getFullYear()} yuna1107 · yuna1107.com`, { x: W / 2, y: y + 4, size: 13, anchor: 'middle', color: t.text2 }), y0: y - 20, y1: y + 10 });
   const H = Math.round(y + 36);
   doc.h = H;
 
   const clip = doc.id('c');
   doc.defs.push(`<clipPath id="${clip}"><rect width="${W}" height="${H}" rx="28"/></clipPath>`);
-  const body = `<g clip-path="url(#${clip})">${doc.backdrop(W, H)}${parts.join('')}</g>`
-    + `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="27.5" fill="none" ${stroke(t.cardBorder)}/>`;
-  await writeFile(path.join(OUT, `profile-${t.name}.svg`), await doc.render(body));
-}
-
-/* ---------- Link icons under the card ---------- */
-
-// Small round glass buttons. Each is its own image so it can be a link; neighbours share one backdrop.
-const LINK = { W: 60, H: 74, d: 44 };
-async function linkIcon(t, c, i, count) {
-  const doc = new Doc(t, LINK.W, LINK.H, { title: c.label });
-  const x = (LINK.W - LINK.d) / 2, y = 8, r = LINK.d / 2;
-  const clip = doc.id('c');
-  doc.defs.push(`<clipPath id="${clip}"><circle cx="${x + r}" cy="${y + r}" r="${r}"/></clipPath>`);
-  const glass = doc.card({ x, y, w: LINK.d, h: LINK.d, r });
-  const split = glass.indexOf('</g>') + 4; // shadow first, then the backdrop, then the glass
-  let b = glass.slice(0, split)
-    + `<g clip-path="url(#${clip})"><g transform="translate(${-i * LINK.W} 0)">${doc.backdrop(count * LINK.W, LINK.H * 4)}</g></g>`
-    + glass.slice(split);
-  b += await icon(c.icon, x + r - 9, y + r - 9, 18, t.tagText);
-  await writeFile(path.join(OUT, `link-${c.id}-${t.name}.svg`), await doc.render(b));
+  const backdrop = doc.backdrop(W, H);
+  const frame = `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="27.5" fill="none" ${stroke(t.cardBorder)}/>`;
+  const slices = [
+    { id: 'top', vb: [0, 0, W, rowY] },
+    { id: 'row-start', vb: [0, rowY, row.x0, ROW.h] },
+    ...row.icons.map((ic) => ({ id: `row-${ic.c.id}`, vb: ic.box, link: ic.c })),
+    { id: 'row-end', vb: [W - row.x0, rowY, row.x0, ROW.h] },
+    { id: 'bottom', vb: [0, rowY + ROW.h, W, H - rowY - ROW.h] },
+  ];
+  const M = 32; // shadow reach
+  for (const sl of slices) {
+    const [vx, vy, vw, vh] = sl.vb;
+    const inside = parts.filter((p) => p.y1 + M > vy && p.y0 - M < vy + vh
+      && (p.x0 == null || (p.x1 + M > vx && p.x0 - M < vx + vw)));
+    const body = `<g clip-path="url(#${clip})">${backdrop}${inside.map((p) => p.b).join('')}</g>${frame}`;
+    await writeFile(path.join(OUT, `profile-${sl.id}-${t.name}.svg`), await doc.render(body, sl.vb, sl.link ? sl.link.label : doc.title));
+  }
+  return { slices, W };
 }
 
 /* ---------- README ---------- */
 
-function readme() {
+// Slices sit edge to edge with no whitespace. align="top" removes the gap under each
+// line of images, and widths are rounded down a hair so a row never wraps.
+function readme(layout) {
   const alt = [`${C.hero.name} — ${C.hero.taglineJa} / ${C.hero.taglineEn}`, C.about.role, ...C.about.bio].join(' ');
-  // The card has no link (only the icons do); a bare <a name> stops GitHub from linking it to the raw image.
-  const pic = `<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg"><img src="./assets/profile-light.svg" alt="${esc(alt)}" width="100%"></picture>`;
-  const icons = C.contacts.map((c) => `<a href="${c.href}" title="${esc(c.label)}"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-${c.id}-dark.svg"><img src="./assets/link-${c.id}-light.svg" alt="${esc(c.label)}" width="54"></picture></a>`).join('');
-  return ['<div align="center">', '', `<a name="profile">${pic}</a>`, '', icons, '', '</div>', ''].join('\n');
+  const pct = (w) => `${Math.floor((w / layout.W) * 1e6) / 1e4}%`;
+  const html = layout.slices.map((sl) => {
+    const name = `./assets/profile-${sl.id}`;
+    const label = sl.link ? sl.link.label : sl.id === 'top' ? alt : '';
+    const pic = `<picture><source media="(prefers-color-scheme: dark)" srcset="${name}-dark.svg"><img src="${name}-light.svg" alt="${esc(label)}" width="${pct(sl.vb[2])}" align="top"></picture>`;
+    return sl.link ? `<a href="${sl.link.href}" title="${esc(sl.link.label)}">${pic}</a>` : pic;
+  }).join('');
+  return ['<div align="center">', '', html, '', '</div>', ''].join('\n');
 }
 
 /* ---------- Main ---------- */
@@ -242,13 +265,11 @@ if (mu.data) {
   }));
 }
 
-for (const t of Object.values(THEMES)) {
-  await profile(t, gh.data, mu.data, images);
-  for (const [i, c] of C.contacts.entries()) await linkIcon(t, c, i, C.contacts.length);
-}
+let layout;
+for (const t of Object.values(THEMES)) layout = await profile(t, gh.data, mu.data, images);
 
 // Remove cards from older layouts.
-for (const f of await readdir(OUT)) if (!/^(profile|link-[a-z0-9]+)-(light|dark)\.svg$/.test(f)) await rm(path.join(OUT, f));
-await writeFile(path.join(ROOT, 'README.md'), readme());
+for (const f of await readdir(OUT)) if (!/^profile-[a-z0-9-]+-(light|dark)\.svg$/.test(f)) await rm(path.join(OUT, f));
+await writeFile(path.join(ROOT, 'README.md'), readme(layout));
 const state = (r) => (r.data ? (r.fresh ? 'fresh' : 'cached') : 'none');
 console.log(`built profile card (github: ${state(gh)}, music: ${state(mu)})`);

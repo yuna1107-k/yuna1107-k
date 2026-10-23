@@ -274,7 +274,8 @@ export class Doc {
     return `<rect x="${r1(x)}" y="${r1(y)}" width="${r1(w)}" height="${r1(h)}" rx="${r}" ${fill(this.t[glass])}/>` + this.glassEdges({ x, y, w, h, r });
   }
 
-  async render(body) {
+  // vb crops the canvas, so one layout can be cut into several images.
+  async render(body, vb = [0, 0, this.w, this.h], title = this.title) {
     const anim = this.animate ? `
 .orb{animation:drift 22s ease-in-out infinite alternate}
 .orb2{animation-duration:26s;animation-direction:alternate-reverse}
@@ -285,8 +286,8 @@ export class Doc {
 @keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
 @media (prefers-reduced-motion:reduce){.orb,.pulse{animation:none}}` : '';
     const font = await fontFaceFor(body);
-    return `<svg xmlns="http://www.w3.org/2000/svg" width="${this.w}" height="${this.h}" viewBox="0 0 ${this.w} ${this.h}" role="img" aria-label="${esc(this.title)}">
-<title>${esc(this.title)}</title>
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="${vb[2]}" height="${vb[3]}" viewBox="${vb.join(' ')}" role="img" aria-label="${esc(title)}">
+<title>${esc(title)}</title>
 <style>${font}
 text{font-family:'ZK','Zen Kurenaido','Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif}${anim}</style>
 <defs>${this.defs.join('\n')}</defs>
