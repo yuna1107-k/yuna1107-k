@@ -88,6 +88,13 @@
    "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
   },
   {
+   "name": "レム",
+   "url": "https://open.spotify.com/track/7jknqnVScv1P6ed2b7YCh1",
+   "artists": "balloon",
+   "album": "レム",
+   "image": "https://i.scdn.co/image/ab67616d00004851726e368c9e9cc4eec8242979"
+  },
+  {
    "name": "旅に帰る (feat. 初音ミク & 重音テト)",
    "url": "https://open.spotify.com/track/0NXLPWclWPy8wOGfbLQNPI",
    "artists": "カンザキイオリ, Hatsune Miku, Teto Kasane",
@@ -109,21 +116,32 @@
    "image": "https://i.scdn.co/image/ab67616d00004851608e8743ddd6346278952ef4"
   },
   {
-   "name": "レム",
-   "url": "https://open.spotify.com/track/7jknqnVScv1P6ed2b7YCh1",
-   "artists": "balloon",
-   "album": "レム",
-   "image": "https://i.scdn.co/image/ab67616d00004851726e368c9e9cc4eec8242979"
-  },
-  {
-   "name": "IRIS OUT",
-   "url": "https://open.spotify.com/track/59hVbgr8rfYkDbHfr8RcGI",
-   "artists": "Kenshi Yonezu",
-   "album": "IRIS OUT",
-   "image": "https://i.scdn.co/image/ab67616d000048516d1d4e875e2424cdd07f3232"
+   "name": "透過する温度 (feat. 小豆沢こはね&白石杏&東雲彰人&青柳冬弥&KAITO)",
+   "url": "https://open.spotify.com/track/5PkaxDkauHWRbt1Lf5dcus",
+   "artists": "Vivid BAD SQUAD",
+   "album": "ファイター/透過する温度",
+   "image": "https://i.scdn.co/image/ab67616d00004851e181ac171ce5358285a74536"
   }
  ],
  "recent": [
+  {
+   "uri": "spotify:album:0M1SMmDgTsqKGq58uK6Xd6",
+   "type": "album",
+   "name": "STUDY WITH MIKU part 6",
+   "url": "https://open.spotify.com/album/0M1SMmDgTsqKGq58uK6Xd6",
+   "image": "https://i.scdn.co/image/ab67616d00001e02ae21c3fceaa3769f1bc8c054",
+   "subtitle": "STUDY WITH MIKU",
+   "playedAt": "2026-10-24T15:00:19.152Z"
+  },
+  {
+   "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
+   "type": "artist",
+   "name": "25時、ナイトコードで。",
+   "url": "https://open.spotify.com/artist/1VMXuPyhNldYomz8ojLKP7",
+   "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844",
+   "subtitle": "",
+   "playedAt": "2026-10-24T13:43:56.708Z"
+  },
   {
    "uri": "spotify:playlist:7s95aynefYGHWChviRqytS",
    "type": "playlist",
@@ -131,7 +149,34 @@
    "url": "https://open.spotify.com/playlist/7s95aynefYGHWChviRqytS",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e024c5fbc140ca7885b0e21e3b5ab67616d00001e0259285a052a74d7cd48ea8d22ab67616d00001e02b75756b0d41bbb317e610453ab67616d00001e02dabda3186be969dbdd218d98",
    "subtitle": "yuna1107",
-   "playedAt": "2026-10-23T12:05:37.492Z"
+   "playedAt": "2026-10-24T11:13:48.652Z"
+  },
+  {
+   "uri": "spotify:playlist:5woINc9obVNGD5pPFmc0RH",
+   "type": "playlist",
+   "name": "レム Radio of 2026.10.22",
+   "url": "https://open.spotify.com/playlist/5woINc9obVNGD5pPFmc0RH",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e02726e368c9e9cc4eec8242979ab67616d00001e028428ef102bb1dd579d053870ab67616d00001e02934b7db2dbd8eb7791a4c4b5ab67616d00001e02e181ac171ce5358285a74536",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-10-24T06:26:14.123Z"
+  },
+  {
+   "uri": "spotify:playlist:5W0o7mB8fPvG8baR1Lnb4Y",
+   "type": "playlist",
+   "name": "ヴァイオレット・エヴァーガーデン",
+   "url": "https://open.spotify.com/playlist/5W0o7mB8fPvG8baR1Lnb4Y",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8447c7e3c39f48d76becef0e21",
+   "subtitle": "ぽん吉",
+   "playedAt": "2026-10-24T05:43:38.045Z"
+  },
+  {
+   "uri": "spotify:playlist:5Ujb7N0woRjVzSR4jDNxql",
+   "type": "playlist",
+   "name": "2026.09.",
+   "url": "https://open.spotify.com/playlist/5Ujb7N0woRjVzSR4jDNxql",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e022ff996c8300902f57ee2495bab67616d00001e02b9bb58d77aa85e8dc722832fab67616d00001e02c8934e21790baf3a9b65c44dab67616d00001e02cd1b61e49c2b12b2556b5a6f",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-10-21T09:05:08.258Z"
   }
  ],
  "playlists": [
@@ -152,5 +197,5 @@
    "createdAt": "2026-10-21T23:49:01Z"
   }
  ],
- "updatedAt": "2026-10-23T23:45:51.495Z"
+ "updatedAt": "2026-10-24T22:56:38.934Z"
 }
