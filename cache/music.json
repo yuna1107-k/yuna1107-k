@@ -125,6 +125,15 @@
  ],
  "recent": [
   {
+   "uri": "spotify:album:6LOkmgqgPAMhLA4GReL5TB",
+   "type": "single",
+   "name": "その絵の名前は/幸福刑",
+   "url": "https://open.spotify.com/album/6LOkmgqgPAMhLA4GReL5TB",
+   "image": "https://i.scdn.co/image/ab67616d00001e020c2882dd6e63fa25a1f1678b",
+   "subtitle": "25時、ナイトコードで。",
+   "playedAt": "2026-10-26T15:14:38.177Z"
+  },
+  {
    "uri": "spotify:album:0M1SMmDgTsqKGq58uK6Xd6",
    "type": "album",
    "name": "STUDY WITH MIKU part 6",
@@ -168,15 +177,6 @@
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8447c7e3c39f48d76becef0e21",
    "subtitle": "ぽん吉",
    "playedAt": "2026-10-24T05:43:38.045Z"
-  },
-  {
-   "uri": "spotify:playlist:5Ujb7N0woRjVzSR4jDNxql",
-   "type": "playlist",
-   "name": "2026.09.",
-   "url": "https://open.spotify.com/playlist/5Ujb7N0woRjVzSR4jDNxql",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e022ff996c8300902f57ee2495bab67616d00001e02b9bb58d77aa85e8dc722832fab67616d00001e02c8934e21790baf3a9b65c44dab67616d00001e02cd1b61e49c2b12b2556b5a6f",
-   "subtitle": "yuna1107",
-   "playedAt": "2026-10-21T09:05:08.258Z"
   }
  ],
  "playlists": [
@@ -197,5 +197,5 @@
    "createdAt": "2026-10-21T23:49:01Z"
   }
  ],
- "updatedAt": "2026-10-25T23:02:35.176Z"
+ "updatedAt": "2026-10-27T00:15:25.090Z"
 }
