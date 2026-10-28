@@ -11,6 +11,11 @@
    "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844"
   },
   {
+   "name": "こはならむ",
+   "url": "https://open.spotify.com/artist/1I24D95GZP1Nr9hVsiOLmw",
+   "image": "https://i.scdn.co/image/ab676161000051748e845ff0d9a9fac632f423d0"
+  },
+  {
    "name": "*Luna",
    "url": "https://open.spotify.com/artist/4vwJe968gHHZzL0or0gSZA",
    "image": "https://i.scdn.co/image/ab676161000051744fa0e60615042c12a05a07ab"
@@ -24,11 +29,6 @@
    "name": "waka",
    "url": "https://open.spotify.com/artist/55YZB9Oqpf6vRpRbdPo9tX",
    "image": "https://i.scdn.co/image/ab676161000051744f28e73974e52cba42d04bd1"
-  },
-  {
-   "name": "こはならむ",
-   "url": "https://open.spotify.com/artist/1I24D95GZP1Nr9hVsiOLmw",
-   "image": "https://i.scdn.co/image/ab676161000051748e845ff0d9a9fac632f423d0"
   },
   {
    "name": "Hoshimachi Suisei",
@@ -125,6 +125,33 @@
  ],
  "recent": [
   {
+   "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
+   "type": "artist",
+   "name": "25時、ナイトコードで。",
+   "url": "https://open.spotify.com/artist/1VMXuPyhNldYomz8ojLKP7",
+   "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844",
+   "subtitle": "",
+   "playedAt": "2026-10-27T12:59:13.655Z"
+  },
+  {
+   "uri": "spotify:artist:1I24D95GZP1Nr9hVsiOLmw",
+   "type": "artist",
+   "name": "こはならむ",
+   "url": "https://open.spotify.com/artist/1I24D95GZP1Nr9hVsiOLmw",
+   "image": "https://i.scdn.co/image/ab676161000051748e845ff0d9a9fac632f423d0",
+   "subtitle": "",
+   "playedAt": "2026-10-27T11:14:43.947Z"
+  },
+  {
+   "uri": "spotify:album:5mywscyfPhENDe5949x2E6",
+   "type": "single",
+   "name": "明日が怖くないように",
+   "url": "https://open.spotify.com/album/5mywscyfPhENDe5949x2E6",
+   "image": "https://i.scdn.co/image/ab67616d00001e021749f9a97c7de23b6fe24d4e",
+   "subtitle": "こはならむ",
+   "playedAt": "2026-10-27T01:07:23.918Z"
+  },
+  {
    "uri": "spotify:album:6LOkmgqgPAMhLA4GReL5TB",
    "type": "single",
    "name": "その絵の名前は/幸福刑",
@@ -143,15 +170,6 @@
    "playedAt": "2026-10-24T15:00:19.152Z"
   },
   {
-   "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
-   "type": "artist",
-   "name": "25時、ナイトコードで。",
-   "url": "https://open.spotify.com/artist/1VMXuPyhNldYomz8ojLKP7",
-   "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844",
-   "subtitle": "",
-   "playedAt": "2026-10-24T13:43:56.708Z"
-  },
-  {
    "uri": "spotify:playlist:7s95aynefYGHWChviRqytS",
    "type": "playlist",
    "name": "2026.10.",
@@ -159,24 +177,6 @@
    "image": "https://mosaic.scdn.co/300/ab67616d00001e024c5fbc140ca7885b0e21e3b5ab67616d00001e0259285a052a74d7cd48ea8d22ab67616d00001e02b75756b0d41bbb317e610453ab67616d00001e02dabda3186be969dbdd218d98",
    "subtitle": "yuna1107",
    "playedAt": "2026-10-24T11:13:48.652Z"
-  },
-  {
-   "uri": "spotify:playlist:5woINc9obVNGD5pPFmc0RH",
-   "type": "playlist",
-   "name": "レム Radio of 2026.10.22",
-   "url": "https://open.spotify.com/playlist/5woINc9obVNGD5pPFmc0RH",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e02726e368c9e9cc4eec8242979ab67616d00001e028428ef102bb1dd579d053870ab67616d00001e02934b7db2dbd8eb7791a4c4b5ab67616d00001e02e181ac171ce5358285a74536",
-   "subtitle": "yuna1107",
-   "playedAt": "2026-10-24T06:26:14.123Z"
-  },
-  {
-   "uri": "spotify:playlist:5W0o7mB8fPvG8baR1Lnb4Y",
-   "type": "playlist",
-   "name": "ヴァイオレット・エヴァーガーデン",
-   "url": "https://open.spotify.com/playlist/5W0o7mB8fPvG8baR1Lnb4Y",
-   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8447c7e3c39f48d76becef0e21",
-   "subtitle": "ぽん吉",
-   "playedAt": "2026-10-24T05:43:38.045Z"
   }
  ],
  "playlists": [
@@ -197,5 +197,5 @@
    "createdAt": "2026-10-21T23:49:01Z"
   }
  ],
- "updatedAt": "2026-10-27T00:15:25.090Z"
+ "updatedAt": "2026-10-28T00:16:46.514Z"
 }
