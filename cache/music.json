@@ -109,18 +109,18 @@
    "image": "https://i.scdn.co/image/ab67616d0000485166bcc4d2089c8fa85514d386"
   },
   {
-   "name": "ヘモグロビン",
-   "url": "https://open.spotify.com/track/2mpb4golbhOx1GZHWIeOsu",
-   "artists": "内緒のピアス",
-   "album": "ヘモグロビン",
-   "image": "https://i.scdn.co/image/ab67616d00004851608e8743ddd6346278952ef4"
-  },
-  {
    "name": "透過する温度 (feat. 小豆沢こはね&白石杏&東雲彰人&青柳冬弥&KAITO)",
    "url": "https://open.spotify.com/track/5PkaxDkauHWRbt1Lf5dcus",
    "artists": "Vivid BAD SQUAD",
    "album": "ファイター/透過する温度",
    "image": "https://i.scdn.co/image/ab67616d00004851e181ac171ce5358285a74536"
+  },
+  {
+   "name": "限りなく灰色へ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&鏡音リン)",
+   "url": "https://open.spotify.com/track/2kvYOzDQ8BZ9t0w3XU2Qpi",
+   "artists": "25時、ナイトコードで。",
+   "album": "限りなく灰色へ/アイディスマイル",
+   "image": "https://i.scdn.co/image/ab67616d0000485107fd0feba0f7e8a4d7313f61"
   }
  ],
  "recent": [
@@ -131,7 +131,16 @@
    "url": "https://open.spotify.com/artist/1VMXuPyhNldYomz8ojLKP7",
    "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844",
    "subtitle": "",
-   "playedAt": "2026-10-27T12:59:13.655Z"
+   "playedAt": "2026-10-28T10:17:07.094Z"
+  },
+  {
+   "uri": "spotify:playlist:7s95aynefYGHWChviRqytS",
+   "type": "playlist",
+   "name": "2026.10.",
+   "url": "https://open.spotify.com/playlist/7s95aynefYGHWChviRqytS",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e024c5fbc140ca7885b0e21e3b5ab67616d00001e0259285a052a74d7cd48ea8d22ab67616d00001e02b75756b0d41bbb317e610453ab67616d00001e02dabda3186be969dbdd218d98",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-10-28T09:46:33.694Z"
   },
   {
    "uri": "spotify:artist:1I24D95GZP1Nr9hVsiOLmw",
@@ -168,15 +177,6 @@
    "image": "https://i.scdn.co/image/ab67616d00001e02ae21c3fceaa3769f1bc8c054",
    "subtitle": "STUDY WITH MIKU",
    "playedAt": "2026-10-24T15:00:19.152Z"
-  },
-  {
-   "uri": "spotify:playlist:7s95aynefYGHWChviRqytS",
-   "type": "playlist",
-   "name": "2026.10.",
-   "url": "https://open.spotify.com/playlist/7s95aynefYGHWChviRqytS",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e024c5fbc140ca7885b0e21e3b5ab67616d00001e0259285a052a74d7cd48ea8d22ab67616d00001e02b75756b0d41bbb317e610453ab67616d00001e02dabda3186be969dbdd218d98",
-   "subtitle": "yuna1107",
-   "playedAt": "2026-10-24T11:13:48.652Z"
   }
  ],
  "playlists": [
@@ -197,5 +197,5 @@
    "createdAt": "2026-10-21T23:49:01Z"
   }
  ],
- "updatedAt": "2026-10-28T00:16:46.514Z"
+ "updatedAt": "2026-10-29T00:38:11.356Z"
 }
