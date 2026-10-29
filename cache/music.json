@@ -131,7 +131,16 @@
    "url": "https://open.spotify.com/artist/1VMXuPyhNldYomz8ojLKP7",
    "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844",
    "subtitle": "",
-   "playedAt": "2026-10-28T10:17:07.094Z"
+   "playedAt": "2026-10-29T07:34:21.839Z"
+  },
+  {
+   "uri": "spotify:artist:3dhJkoqrrOdQVpJ98e15iz",
+   "type": "artist",
+   "name": "Bank of Innovation, Inc.",
+   "url": "https://open.spotify.com/artist/3dhJkoqrrOdQVpJ98e15iz",
+   "image": "https://i.scdn.co/image/ab67616d00001e02dc3ec5dfe90f56b95893b16c",
+   "subtitle": "",
+   "playedAt": "2026-10-29T05:51:23.661Z"
   },
   {
    "uri": "spotify:playlist:7s95aynefYGHWChviRqytS",
@@ -168,15 +177,6 @@
    "image": "https://i.scdn.co/image/ab67616d00001e020c2882dd6e63fa25a1f1678b",
    "subtitle": "25時、ナイトコードで。",
    "playedAt": "2026-10-26T15:14:38.177Z"
-  },
-  {
-   "uri": "spotify:album:0M1SMmDgTsqKGq58uK6Xd6",
-   "type": "album",
-   "name": "STUDY WITH MIKU part 6",
-   "url": "https://open.spotify.com/album/0M1SMmDgTsqKGq58uK6Xd6",
-   "image": "https://i.scdn.co/image/ab67616d00001e02ae21c3fceaa3769f1bc8c054",
-   "subtitle": "STUDY WITH MIKU",
-   "playedAt": "2026-10-24T15:00:19.152Z"
   }
  ],
  "playlists": [
@@ -197,5 +197,5 @@
    "createdAt": "2026-10-21T23:49:01Z"
   }
  ],
- "updatedAt": "2026-10-29T00:38:11.356Z"
+ "updatedAt": "2026-10-29T08:12:11.923Z"
 }
