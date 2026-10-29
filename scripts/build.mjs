@@ -144,11 +144,13 @@ async function music(doc, y0, data, images) {
 function github(doc, y0, data) {
   const t = doc.t, gap = 14, tileW = (CW - 3 * gap) / 4, tileH = 96;
   const tt = data.totals;
+  // Same tiles as the site: repository count (public + private), or Issues if there is none.
+  const repos = (tt.publicRepos || 0) + (tt.privateRepos || 0);
   const tiles = [
     ['コントリビューション', tt.contributions],
     ['コミット', tt.commits],
     ['プルリクエスト', tt.pullRequests],
-    tt.private > 0 ? ['非公開リポジトリ', tt.private, '内訳は非公開'] : ['Issue', tt.issues],
+    repos > 0 ? ['リポジトリ', repos] : ['Issue', tt.issues],
   ];
   let b = '';
   tiles.forEach(([label, value, note], i) => {
@@ -165,8 +167,9 @@ function github(doc, y0, data) {
   b += text('Languages', { x: lx0, y: ly + 31, size: 15, weight: 700, ls: 1, color: t.text });
   b += text('All time', { x: lx0 + measure('Languages', 15, 1) + 8, y: ly + 31, size: 12, ls: 1, upper: true, color: t.muted });
   b += text(`数値は直近 1 年 · 更新 ${jstDate(data.updatedAt)}`, { x: lx0 + bw, y: ly + 31, size: 12.5, anchor: 'end', color: t.muted });
+  // Percentages are out of every language, like the site, even though only the top 6 are drawn.
+  const sum = data.languages.reduce((n, l) => n + l.commits, 0) || 1;
   const langs = data.languages.slice(0, 6);
-  const sum = langs.reduce((n, l) => n + l.commits, 0) || 1;
   const by = ly + 46, clip = doc.id('c');
   doc.defs.push(`<clipPath id="${clip}"><rect x="${lx0}" y="${by}" width="${bw}" height="10" rx="5"/></clipPath>`);
   b += `<g clip-path="url(#${clip})"><rect x="${lx0}" y="${by}" width="${bw}" height="10" ${fill(t.heat[0])}/>`;
