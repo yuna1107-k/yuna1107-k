@@ -4,21 +4,16 @@
   "url": "https://github.com/yuna1107-k"
  },
  "totals": {
-  "contributions": 1397,
-  "commits": 623,
-  "pullRequests": 204,
+  "contributions": 1447,
+  "commits": 666,
+  "pullRequests": 210,
   "issues": 157,
   "reviews": 0,
-  "private": 1240,
+  "private": 1283,
   "publicRepos": 14,
-  "privateRepos": 26
+  "privateRepos": 27
  },
  "days": [
-  {
-   "date": "2025-10-29",
-   "level": 0,
-   "count": 0
-  },
   {
    "date": "2025-10-30",
    "level": 0,
@@ -1611,8 +1606,8 @@
   },
   {
    "date": "2026-09-13",
-   "level": 0,
-   "count": 0
+   "level": 1,
+   "count": 2
   },
   {
    "date": "2026-09-14",
@@ -1842,7 +1837,12 @@
   {
    "date": "2026-10-29",
    "level": 1,
-   "count": 2
+   "count": 22
+  },
+  {
+   "date": "2026-10-30",
+   "level": 1,
+   "count": 28
   }
  ],
  "repositories": [
@@ -1869,6 +1869,14 @@
    "language": "JavaScript",
    "color": "#f1e05a",
    "commits": 9
+  },
+  {
+   "name": "Ring-NFC",
+   "url": "https://github.com/yuna1107-k/Ring-NFC",
+   "isPrivate": false,
+   "language": "Python",
+   "color": "#3572A5",
+   "commits": 8
   },
   {
    "name": "HCE_Android",
@@ -1901,14 +1909,6 @@
    "language": "Dart",
    "color": "#00B4AB",
    "commits": 3
-  },
-  {
-   "name": "qr-code-animation",
-   "url": "https://github.com/yuna1107-k/qr-code-animation",
-   "isPrivate": false,
-   "language": "JavaScript",
-   "color": "#f1e05a",
-   "commits": 1
   }
  ],
  "languages": [
@@ -1923,14 +1923,14 @@
    "commits": 26
   },
   {
+   "name": "Python",
+   "color": "#3572A5",
+   "commits": 23
+  },
+  {
    "name": "TypeScript",
    "color": "#3178c6",
    "commits": 20
-  },
-  {
-   "name": "Python",
-   "color": "#3572A5",
-   "commits": 16
   },
   {
    "name": "Kotlin",
@@ -1943,5 +1943,5 @@
    "commits": 3
   }
  ],
- "updatedAt": "2026-10-29T08:12:16.764Z"
+ "updatedAt": "2026-10-30T00:38:54.401Z"
 }

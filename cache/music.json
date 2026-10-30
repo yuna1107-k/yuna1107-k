@@ -1,14 +1,14 @@
 {
  "artists": [
   {
-   "name": "MIMI",
-   "url": "https://open.spotify.com/artist/0nwGsQzwVqdlBAg0eSNxmd",
-   "image": "https://i.scdn.co/image/ab67616100005174df7f4304507ebb33c234a2b1"
-  },
-  {
    "name": "25時、ナイトコードで。",
    "url": "https://open.spotify.com/artist/1VMXuPyhNldYomz8ojLKP7",
    "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844"
+  },
+  {
+   "name": "MIMI",
+   "url": "https://open.spotify.com/artist/0nwGsQzwVqdlBAg0eSNxmd",
+   "image": "https://i.scdn.co/image/ab67616100005174df7f4304507ebb33c234a2b1"
   },
   {
    "name": "こはならむ",
@@ -31,6 +31,11 @@
    "image": "https://i.scdn.co/image/ab676161000051744f28e73974e52cba42d04bd1"
   },
   {
+   "name": "Leo/need",
+   "url": "https://open.spotify.com/artist/7CXyP7IN0L3ySUeIQ6Ymu1",
+   "image": "https://i.scdn.co/image/ab67616d00001e02c63e9f758f4e8eceadabc3f0"
+  },
+  {
    "name": "Hoshimachi Suisei",
    "url": "https://open.spotify.com/artist/726WiFmWkohzodUxK3XjHX",
    "image": "https://i.scdn.co/image/ab67616100005174de6b03e1ce3f4d3427e8cdf9"
@@ -38,17 +43,12 @@
   {
    "name": "STUDY WITH MIKU",
    "url": "https://open.spotify.com/artist/46j7YE7YDwC1zb7RnoyLiV",
-   "image": "https://i.scdn.co/image/ab67616d00001e027ea8fc5b4965afa1ec80aa94"
+   "image": "https://i.scdn.co/image/ab67616d00001e02362d9c74cd67cc38326ef361"
   },
   {
    "name": "Aimer",
    "url": "https://open.spotify.com/artist/0bAsR2unSRpn6BQPEnNlZm",
    "image": "https://i.scdn.co/image/ab67616100005174ecb2f33d56d05407f877aa81"
-  },
-  {
-   "name": "Leo/need",
-   "url": "https://open.spotify.com/artist/7CXyP7IN0L3ySUeIQ6Ymu1",
-   "image": "https://i.scdn.co/image/ab67616d00001e02c63e9f758f4e8eceadabc3f0"
   }
  ],
  "tracks": [
@@ -67,6 +67,13 @@
    "image": "https://i.scdn.co/image/ab67616d00004851b75756b0d41bbb317e610453"
   },
   {
+   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
+   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
+   "artists": "25時、ナイトコードで。",
+   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
+   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
+  },
+  {
    "name": "sunshine",
    "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
    "artists": "waka",
@@ -79,13 +86,6 @@
    "artists": "Rokudenashi",
    "album": "溜息",
    "image": "https://i.scdn.co/image/ab67616d00004851dabda3186be969dbdd218d98"
-  },
-  {
-   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
-   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
-   "artists": "25時、ナイトコードで。",
-   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
-   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
   },
   {
    "name": "レム",
@@ -125,13 +125,22 @@
  ],
  "recent": [
   {
+   "uri": "spotify:playlist:1eJiXVZZg3JH6DtBLdJSzU",
+   "type": "playlist",
+   "name": "25時、ナイトコードで。 Radio of 2026.10.29",
+   "url": "https://open.spotify.com/playlist/1eJiXVZZg3JH6DtBLdJSzU",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e026549e0ca9064d28052bade1aab67616d00001e028c489aa548f8ad7a4f078abdab67616d00001e02c63e9f758f4e8eceadabc3f0ab67616d00001e02c8934e21790baf3a9b65c44d",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-10-29T16:30:07.329Z"
+  },
+  {
    "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
    "type": "artist",
    "name": "25時、ナイトコードで。",
    "url": "https://open.spotify.com/artist/1VMXuPyhNldYomz8ojLKP7",
    "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844",
    "subtitle": "",
-   "playedAt": "2026-10-29T07:34:21.839Z"
+   "playedAt": "2026-10-29T08:33:15.998Z"
   },
   {
    "uri": "spotify:artist:3dhJkoqrrOdQVpJ98e15iz",
@@ -177,16 +186,133 @@
    "image": "https://i.scdn.co/image/ab67616d00001e020c2882dd6e63fa25a1f1678b",
    "subtitle": "25時、ナイトコードで。",
    "playedAt": "2026-10-26T15:14:38.177Z"
+  },
+  {
+   "uri": "spotify:album:0M1SMmDgTsqKGq58uK6Xd6",
+   "type": "album",
+   "name": "STUDY WITH MIKU part 6",
+   "url": "https://open.spotify.com/album/0M1SMmDgTsqKGq58uK6Xd6",
+   "image": "https://i.scdn.co/image/ab67616d00001e02ae21c3fceaa3769f1bc8c054",
+   "subtitle": "STUDY WITH MIKU",
+   "playedAt": "2026-10-24T15:00:19.152Z"
+  },
+  {
+   "uri": "spotify:playlist:5woINc9obVNGD5pPFmc0RH",
+   "type": "playlist",
+   "name": "レム Radio of 2026.10.22",
+   "url": "https://open.spotify.com/playlist/5woINc9obVNGD5pPFmc0RH",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e02726e368c9e9cc4eec8242979ab67616d00001e028428ef102bb1dd579d053870ab67616d00001e02934b7db2dbd8eb7791a4c4b5ab67616d00001e02e181ac171ce5358285a74536",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-10-24T06:26:14.123Z"
+  },
+  {
+   "uri": "spotify:playlist:5W0o7mB8fPvG8baR1Lnb4Y",
+   "type": "playlist",
+   "name": "ヴァイオレット・エヴァーガーデン",
+   "url": "https://open.spotify.com/playlist/5W0o7mB8fPvG8baR1Lnb4Y",
+   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8447c7e3c39f48d76becef0e21",
+   "subtitle": "ぽん吉",
+   "playedAt": "2026-10-24T05:43:38.045Z"
+  },
+  {
+   "uri": "spotify:playlist:5Ujb7N0woRjVzSR4jDNxql",
+   "type": "playlist",
+   "name": "2026.09.",
+   "url": "https://open.spotify.com/playlist/5Ujb7N0woRjVzSR4jDNxql",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e022ff996c8300902f57ee2495bab67616d00001e02b9bb58d77aa85e8dc722832fab67616d00001e02c8934e21790baf3a9b65c44dab67616d00001e02cd1b61e49c2b12b2556b5a6f",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-10-21T09:05:08.258Z"
+  },
+  {
+   "uri": "spotify:album:5xnBggWNmGDQLOPdHt1C57",
+   "type": "single",
+   "name": "The Pages",
+   "url": "https://open.spotify.com/album/5xnBggWNmGDQLOPdHt1C57",
+   "image": "https://i.scdn.co/image/ab67616d00001e0210b9eab40f7ee41623369464",
+   "subtitle": "町田ちま",
+   "playedAt": "2026-10-21T01:40:09.107Z"
+  },
+  {
+   "uri": "spotify:album:0QWkRhBckFJ0jKQL0YtJly",
+   "type": "single",
+   "name": "拝啓、はじまりの色",
+   "url": "https://open.spotify.com/album/0QWkRhBckFJ0jKQL0YtJly",
+   "image": "https://i.scdn.co/image/ab67616d00001e0284422d2c2c4558fde628280d",
+   "subtitle": "ヨノ",
+   "playedAt": "2026-10-20T23:40:17.898Z"
+  },
+  {
+   "uri": "spotify:album:6HHNNh9GDwBAGugWY0MfRB",
+   "type": "single",
+   "name": "それなのに",
+   "url": "https://open.spotify.com/album/6HHNNh9GDwBAGugWY0MfRB",
+   "image": "https://i.scdn.co/image/ab67616d00001e0295e0fa207646973472149c66",
+   "subtitle": "Uru",
+   "playedAt": "2026-10-20T23:26:33.265Z"
+  },
+  {
+   "uri": "spotify:artist:726WiFmWkohzodUxK3XjHX",
+   "type": "artist",
+   "name": "Hoshimachi Suisei",
+   "url": "https://open.spotify.com/artist/726WiFmWkohzodUxK3XjHX",
+   "image": "https://i.scdn.co/image/ab67616100005174de6b03e1ce3f4d3427e8cdf9",
+   "subtitle": "",
+   "playedAt": "2026-10-20T23:22:27.488Z"
+  },
+  {
+   "uri": "spotify:artist:3p5u6C63zDYR7KIiRybuKu",
+   "type": "artist",
+   "name": "剣持刀也",
+   "url": "https://open.spotify.com/artist/3p5u6C63zDYR7KIiRybuKu",
+   "image": "https://i.scdn.co/image/ab67616d00001e02a1ab52ba6777eb4273e7adf8",
+   "subtitle": "",
+   "playedAt": "2026-10-20T16:52:12.342Z"
+  },
+  {
+   "uri": "spotify:artist:7CXyP7IN0L3ySUeIQ6Ymu1",
+   "type": "artist",
+   "name": "Leo/need",
+   "url": "https://open.spotify.com/artist/7CXyP7IN0L3ySUeIQ6Ymu1",
+   "image": "https://i.scdn.co/image/ab67616d00001e02c63e9f758f4e8eceadabc3f0",
+   "subtitle": "",
+   "playedAt": "2026-10-20T16:45:15.273Z"
+  },
+  {
+   "uri": "spotify:playlist:5oMrTwKGn9Q4xFaaJkH9Yc",
+   "type": "playlist",
+   "name": "Lucia Radio of 2026.10.20",
+   "url": "https://open.spotify.com/playlist/5oMrTwKGn9Q4xFaaJkH9Yc",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e025a5b2d88471a17cd62a9c002ab67616d00001e02a913c643901e9af9028358dcab67616d00001e02cb72fb620bfe89a958565d3aab67616d00001e02f562ec3a443dba38593b183e",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-10-20T16:25:11.342Z"
+  },
+  {
+   "uri": "spotify:playlist:1fyZmmKax7y9uU2ry1DD3k",
+   "type": "playlist",
+   "name": "『超かぐや姫！』公式プレイリスト",
+   "url": "https://open.spotify.com/playlist/1fyZmmKax7y9uU2ry1DD3k",
+   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c690f1fb3fa54688f2200d852",
+   "subtitle": "『超かぐや姫！』公式",
+   "playedAt": "2026-10-18T11:56:18.554Z"
+  },
+  {
+   "uri": "spotify:artist:3gkMdMtviTQoofffgEPSLW",
+   "type": "artist",
+   "name": "0.2lx",
+   "url": "https://open.spotify.com/artist/3gkMdMtviTQoofffgEPSLW",
+   "image": "https://i.scdn.co/image/ab67616100005174f63110aeed00d3ef226303cb",
+   "subtitle": "",
+   "playedAt": "2026-10-18T05:32:17.516Z"
   }
  ],
  "playlists": [
   {
-   "name": "Lucia Radio of 2026.10.20",
-   "url": "https://open.spotify.com/playlist/5oMrTwKGn9Q4xFaaJkH9Yc",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e025a5b2d88471a17cd62a9c002ab67616d00001e02a913c643901e9af9028358dcab67616d00001e02cb72fb620bfe89a958565d3aab67616d00001e02f562ec3a443dba38593b183e",
+   "name": "25時、ナイトコードで。 Radio of 2026.10.29",
+   "url": "https://open.spotify.com/playlist/1eJiXVZZg3JH6DtBLdJSzU",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e026549e0ca9064d28052bade1aab67616d00001e028c489aa548f8ad7a4f078abdab67616d00001e02c63e9f758f4e8eceadabc3f0ab67616d00001e02c8934e21790baf3a9b65c44d",
    "description": "",
    "tracks": 50,
-   "createdAt": "2026-10-20T11:46:39Z"
+   "createdAt": "2026-10-29T09:14:38Z"
   },
   {
    "name": "レム Radio of 2026.10.22",
@@ -195,7 +321,2176 @@
    "description": "",
    "tracks": 50,
    "createdAt": "2026-10-21T23:49:01Z"
+  },
+  {
+   "name": "Lucia Radio of 2026.10.20",
+   "url": "https://open.spotify.com/playlist/5oMrTwKGn9Q4xFaaJkH9Yc",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e025a5b2d88471a17cd62a9c002ab67616d00001e02a913c643901e9af9028358dcab67616d00001e02cb72fb620bfe89a958565d3aab67616d00001e02f562ec3a443dba38593b183e",
+   "description": "",
+   "tracks": 50,
+   "createdAt": "2026-10-20T11:46:39Z"
   }
  ],
- "updatedAt": "2026-10-29T08:12:11.923Z"
+ "days": [
+  {
+   "date": "2025-10-31",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-01",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-02",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-03",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-04",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-05",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-06",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-07",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-08",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-09",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-10",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-11",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-12",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-13",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-14",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-15",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-16",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-17",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-18",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-19",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-20",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-21",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-22",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-23",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-24",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-25",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-26",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-27",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-28",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-29",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-11-30",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-01",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-02",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-03",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-04",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-05",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-06",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-07",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-08",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-09",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-10",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-11",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-12",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-13",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-14",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-15",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-16",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-17",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-18",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-19",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-20",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-21",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-22",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-23",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-24",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-25",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-26",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-27",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-28",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-29",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-30",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2025-12-31",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-01",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-02",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-03",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-04",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-05",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-06",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-07",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-08",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-09",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-10",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-11",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-12",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-13",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-14",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-15",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-16",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-17",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-18",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-19",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-20",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-21",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-22",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-23",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-24",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-25",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-26",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-27",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-28",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-29",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-30",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-01-31",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-01",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-02",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-03",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-04",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-05",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-06",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-07",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-08",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-09",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-10",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-11",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-12",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-13",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-14",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-15",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-16",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-17",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-18",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-19",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-20",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-21",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-22",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-23",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-24",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-25",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-26",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-27",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-02-28",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-01",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-02",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-03",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-04",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-05",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-06",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-07",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-08",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-09",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-10",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-11",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-12",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-13",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-14",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-15",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-16",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-17",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-18",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-19",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-20",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-21",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-22",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-23",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-24",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-25",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-26",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-27",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-28",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-29",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-30",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-03-31",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-01",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-02",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-03",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-04",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-05",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-06",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-07",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-08",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-09",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-10",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-11",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-12",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-13",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-14",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-15",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-16",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-17",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-18",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-19",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-20",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-21",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-22",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-23",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-24",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-25",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-26",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-27",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-28",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-29",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-04-30",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-01",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-02",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-03",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-04",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-05",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-06",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-07",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-08",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-09",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-10",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-11",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-12",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-13",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-14",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-15",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-16",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-17",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-18",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-19",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-20",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-21",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-22",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-23",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-24",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-25",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-26",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-27",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-28",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-29",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-30",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-05-31",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-01",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-02",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-03",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-04",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-05",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-06",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-07",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-08",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-09",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-10",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-11",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-12",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-13",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-14",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-15",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-16",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-17",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-18",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-19",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-20",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-21",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-22",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-23",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-24",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-25",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-26",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-27",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-28",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-29",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-06-30",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-01",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-02",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-03",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-04",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-05",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-06",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-07",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-08",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-09",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-10",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-11",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-12",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-13",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-14",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-15",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-16",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-17",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-18",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-19",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-20",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-21",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-22",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-23",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-24",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-25",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-26",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-27",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-28",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-29",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-30",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-07-31",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-01",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-02",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-03",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-04",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-05",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-06",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-07",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-08",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-09",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-10",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-11",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-12",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-13",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-14",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-15",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-16",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-17",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-18",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-19",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-20",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-21",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-22",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-23",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-24",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-25",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-26",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-27",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-28",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-29",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-30",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-08-31",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-01",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-02",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-03",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-04",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-05",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-06",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-07",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-08",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-09",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-10",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-11",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-12",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-13",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-14",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-15",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-16",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-17",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-18",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-19",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-20",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-21",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-22",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-23",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-24",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-25",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-26",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-27",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-28",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-29",
+   "count": 0,
+   "level": 0,
+   "noData": true
+  },
+  {
+   "date": "2026-09-30",
+   "count": 64,
+   "level": 4
+  },
+  {
+   "date": "2026-10-01",
+   "count": 29,
+   "level": 2
+  },
+  {
+   "date": "2026-10-02",
+   "count": 58,
+   "level": 3
+  },
+  {
+   "date": "2026-10-03",
+   "count": 104,
+   "level": 4
+  },
+  {
+   "date": "2026-10-04",
+   "count": 1,
+   "level": 1
+  },
+  {
+   "date": "2026-10-05",
+   "count": 18,
+   "level": 2
+  },
+  {
+   "date": "2026-10-06",
+   "count": 18,
+   "level": 2
+  },
+  {
+   "date": "2026-10-07",
+   "count": 17,
+   "level": 2
+  },
+  {
+   "date": "2026-10-08",
+   "count": 32,
+   "level": 3
+  },
+  {
+   "date": "2026-10-09",
+   "count": 19,
+   "level": 2
+  },
+  {
+   "date": "2026-10-10",
+   "count": 3,
+   "level": 1
+  },
+  {
+   "date": "2026-10-11",
+   "count": 8,
+   "level": 1
+  },
+  {
+   "date": "2026-10-12",
+   "count": 24,
+   "level": 2
+  },
+  {
+   "date": "2026-10-13",
+   "count": 45,
+   "level": 3
+  },
+  {
+   "date": "2026-10-14",
+   "count": 33,
+   "level": 3
+  },
+  {
+   "date": "2026-10-15",
+   "count": 24,
+   "level": 2
+  },
+  {
+   "date": "2026-10-16",
+   "count": 78,
+   "level": 4
+  },
+  {
+   "date": "2026-10-17",
+   "count": 6,
+   "level": 1
+  },
+  {
+   "date": "2026-10-18",
+   "count": 23,
+   "level": 2
+  },
+  {
+   "date": "2026-10-19",
+   "count": 73,
+   "level": 4
+  },
+  {
+   "date": "2026-10-20",
+   "count": 70,
+   "level": 4
+  },
+  {
+   "date": "2026-10-21",
+   "count": 54,
+   "level": 3
+  },
+  {
+   "date": "2026-10-22",
+   "count": 48,
+   "level": 3
+  },
+  {
+   "date": "2026-10-23",
+   "count": 60,
+   "level": 3
+  },
+  {
+   "date": "2026-10-24",
+   "count": 69,
+   "level": 4
+  },
+  {
+   "date": "2026-10-25",
+   "count": 9,
+   "level": 1
+  },
+  {
+   "date": "2026-10-26",
+   "count": 5,
+   "level": 1
+  },
+  {
+   "date": "2026-10-27",
+   "count": 60,
+   "level": 3
+  },
+  {
+   "date": "2026-10-28",
+   "count": 7,
+   "level": 1
+  },
+  {
+   "date": "2026-10-29",
+   "count": 92,
+   "level": 4
+  },
+  {
+   "date": "2026-10-30",
+   "count": 14,
+   "level": 1
+  }
+ ],
+ "updatedAt": "2026-10-30T00:38:49.671Z"
 }
