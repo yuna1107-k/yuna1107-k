@@ -67,18 +67,18 @@
    "image": "https://i.scdn.co/image/ab67616d00004851b75756b0d41bbb317e610453"
   },
   {
-   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
-   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
-   "artists": "25時、ナイトコードで。",
-   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
-   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
-  },
-  {
    "name": "sunshine",
    "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
    "artists": "waka",
    "album": "sunshine",
    "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
+  },
+  {
+   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
+   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
+   "artists": "25時、ナイトコードで。",
+   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
+   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
   },
   {
    "name": "心の奥",
@@ -116,14 +116,23 @@
    "image": "https://i.scdn.co/image/ab67616d00004851e181ac171ce5358285a74536"
   },
   {
-   "name": "限りなく灰色へ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&鏡音リン)",
-   "url": "https://open.spotify.com/track/2kvYOzDQ8BZ9t0w3XU2Qpi",
-   "artists": "25時、ナイトコードで。",
-   "album": "限りなく灰色へ/アイディスマイル",
-   "image": "https://i.scdn.co/image/ab67616d0000485107fd0feba0f7e8a4d7313f61"
+   "name": "世界の歩き方",
+   "url": "https://open.spotify.com/track/6JxG5ku339vsSeHNLr5CH0",
+   "artists": "Tsukuyomi",
+   "album": "世界の歩き方",
+   "image": "https://i.scdn.co/image/ab67616d00004851cd1b61e49c2b12b2556b5a6f"
   }
  ],
  "recent": [
+  {
+   "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
+   "type": "artist",
+   "name": "25時、ナイトコードで。",
+   "url": "https://open.spotify.com/artist/1VMXuPyhNldYomz8ojLKP7",
+   "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844",
+   "subtitle": "",
+   "playedAt": "2026-10-31T23:47:21.633Z"
+  },
   {
    "uri": "spotify:playlist:1eJiXVZZg3JH6DtBLdJSzU",
    "type": "playlist",
@@ -159,15 +168,6 @@
    "image": "https://i.scdn.co/image/ab67616d00001e024899fb25bb704c0f44a42f28",
    "subtitle": "CONA",
    "playedAt": "2026-10-30T01:22:57.184Z"
-  },
-  {
-   "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
-   "type": "artist",
-   "name": "25時、ナイトコードで。",
-   "url": "https://open.spotify.com/artist/1VMXuPyhNldYomz8ojLKP7",
-   "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844",
-   "subtitle": "",
-   "playedAt": "2026-10-29T08:33:15.998Z"
   },
   {
    "uri": "spotify:artist:3dhJkoqrrOdQVpJ98e15iz",
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-01",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-02",
    "count": 0,
@@ -2487,9 +2481,14 @@
   },
   {
    "date": "2026-10-31",
-   "count": 4,
+   "count": 5,
+   "level": 1
+  },
+  {
+   "date": "2026-11-01",
+   "count": 3,
    "level": 1
   }
  ],
- "updatedAt": "2026-10-31T00:28:26.002Z"
+ "updatedAt": "2026-10-31T23:57:35.654Z"
 }
