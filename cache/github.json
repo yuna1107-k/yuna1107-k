@@ -4,21 +4,16 @@
   "url": "https://github.com/yuna1107-k"
  },
  "totals": {
-  "contributions": 1447,
-  "commits": 666,
+  "contributions": 1471,
+  "commits": 689,
   "pullRequests": 210,
   "issues": 157,
   "reviews": 0,
-  "private": 1283,
-  "publicRepos": 14,
+  "private": 1286,
+  "publicRepos": 15,
   "privateRepos": 27
  },
  "days": [
-  {
-   "date": "2025-10-30",
-   "level": 0,
-   "count": 0
-  },
   {
    "date": "2025-10-31",
    "level": 0,
@@ -1841,11 +1836,24 @@
   },
   {
    "date": "2026-10-30",
-   "level": 1,
-   "count": 28
+   "level": 2,
+   "count": 52
+  },
+  {
+   "date": "2026-10-31",
+   "level": 0,
+   "count": 0
   }
  ],
  "repositories": [
+  {
+   "name": "yuna-android-launcher",
+   "url": "https://github.com/yuna1107-k/yuna-android-launcher",
+   "isPrivate": false,
+   "language": "Java",
+   "color": "#b07219",
+   "commits": 20
+  },
   {
    "name": "edit-audio",
    "url": "https://github.com/yuna1107-k/edit-audio",
@@ -1901,14 +1909,6 @@
    "language": "C++",
    "color": "#f34b7d",
    "commits": 3
-  },
-  {
-   "name": "Public_LittleTimer",
-   "url": "https://github.com/yuna1107-k/Public_LittleTimer",
-   "isPrivate": false,
-   "language": "Dart",
-   "color": "#00B4AB",
-   "commits": 3
   }
  ],
  "languages": [
@@ -1928,6 +1928,11 @@
    "commits": 23
   },
   {
+   "name": "Java",
+   "color": "#b07219",
+   "commits": 20
+  },
+  {
    "name": "TypeScript",
    "color": "#3178c6",
    "commits": 20
@@ -1943,5 +1948,5 @@
    "commits": 3
   }
  ],
- "updatedAt": "2026-10-30T00:38:54.401Z"
+ "updatedAt": "2026-10-31T00:28:30.591Z"
 }

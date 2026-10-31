@@ -31,14 +31,14 @@
    "image": "https://i.scdn.co/image/ab676161000051744f28e73974e52cba42d04bd1"
   },
   {
-   "name": "Leo/need",
-   "url": "https://open.spotify.com/artist/7CXyP7IN0L3ySUeIQ6Ymu1",
-   "image": "https://i.scdn.co/image/ab67616d00001e02c63e9f758f4e8eceadabc3f0"
-  },
-  {
    "name": "Hoshimachi Suisei",
    "url": "https://open.spotify.com/artist/726WiFmWkohzodUxK3XjHX",
    "image": "https://i.scdn.co/image/ab67616100005174de6b03e1ce3f4d3427e8cdf9"
+  },
+  {
+   "name": "Leo/need",
+   "url": "https://open.spotify.com/artist/7CXyP7IN0L3ySUeIQ6Ymu1",
+   "image": "https://i.scdn.co/image/ab67616d00001e02c63e9f758f4e8eceadabc3f0"
   },
   {
    "name": "STUDY WITH MIKU",
@@ -88,6 +88,13 @@
    "image": "https://i.scdn.co/image/ab67616d00004851dabda3186be969dbdd218d98"
   },
   {
+   "name": "透明軌道",
+   "url": "https://open.spotify.com/track/130g6pEWAP6hsgEQ4kbT19",
+   "artists": "HACHI",
+   "album": "透明軌道",
+   "image": "https://i.scdn.co/image/ab67616d0000485166bcc4d2089c8fa85514d386"
+  },
+  {
    "name": "レム",
    "url": "https://open.spotify.com/track/7jknqnVScv1P6ed2b7YCh1",
    "artists": "balloon",
@@ -100,13 +107,6 @@
    "artists": "カンザキイオリ, Hatsune Miku, Teto Kasane",
    "album": "旅に帰る (feat. 初音ミク & 重音テト)",
    "image": "https://i.scdn.co/image/ab67616d000048514c5fbc140ca7885b0e21e3b5"
-  },
-  {
-   "name": "透明軌道",
-   "url": "https://open.spotify.com/track/130g6pEWAP6hsgEQ4kbT19",
-   "artists": "HACHI",
-   "album": "透明軌道",
-   "image": "https://i.scdn.co/image/ab67616d0000485166bcc4d2089c8fa85514d386"
   },
   {
    "name": "透過する温度 (feat. 小豆沢こはね&白石杏&東雲彰人&青柳冬弥&KAITO)",
@@ -131,7 +131,34 @@
    "url": "https://open.spotify.com/playlist/1eJiXVZZg3JH6DtBLdJSzU",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e026549e0ca9064d28052bade1aab67616d00001e028c489aa548f8ad7a4f078abdab67616d00001e02c63e9f758f4e8eceadabc3f0ab67616d00001e02c8934e21790baf3a9b65c44d",
    "subtitle": "yuna1107",
-   "playedAt": "2026-10-29T16:30:07.329Z"
+   "playedAt": "2026-10-30T14:58:06.487Z"
+  },
+  {
+   "uri": "spotify:playlist:2gJdwkFW5GwlZPhUgCeQmZ",
+   "type": "playlist",
+   "name": "2020年代Mix of 2026.10.30",
+   "url": "https://open.spotify.com/playlist/2gJdwkFW5GwlZPhUgCeQmZ",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e0203131cb44d03b2fb3a5ba974ab67616d00001e0266bcc4d2089c8fa85514d386ab67616d00001e02775e8184725e0fb89337dd9aab67616d00001e02e181ac171ce5358285a74536",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-10-30T14:26:32.158Z"
+  },
+  {
+   "uri": "spotify:album:3tp1pW5EKYNzbMckLv1E3y",
+   "type": "single",
+   "name": "Memories #1",
+   "url": "https://open.spotify.com/album/3tp1pW5EKYNzbMckLv1E3y",
+   "image": "https://i.scdn.co/image/ab67616d00001e02ff58503d08385cfc7fb7fba5",
+   "subtitle": "esoragoto",
+   "playedAt": "2026-10-30T06:23:52.630Z"
+  },
+  {
+   "uri": "spotify:album:4u7IH0ZUYJmpsNXpJAHyjL",
+   "type": "single",
+   "name": "春霞",
+   "url": "https://open.spotify.com/album/4u7IH0ZUYJmpsNXpJAHyjL",
+   "image": "https://i.scdn.co/image/ab67616d00001e024899fb25bb704c0f44a42f28",
+   "subtitle": "CONA",
+   "playedAt": "2026-10-30T01:22:57.184Z"
   },
   {
    "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
@@ -276,36 +303,17 @@
    "image": "https://i.scdn.co/image/ab67616d00001e02c63e9f758f4e8eceadabc3f0",
    "subtitle": "",
    "playedAt": "2026-10-20T16:45:15.273Z"
-  },
-  {
-   "uri": "spotify:playlist:5oMrTwKGn9Q4xFaaJkH9Yc",
-   "type": "playlist",
-   "name": "Lucia Radio of 2026.10.20",
-   "url": "https://open.spotify.com/playlist/5oMrTwKGn9Q4xFaaJkH9Yc",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e025a5b2d88471a17cd62a9c002ab67616d00001e02a913c643901e9af9028358dcab67616d00001e02cb72fb620bfe89a958565d3aab67616d00001e02f562ec3a443dba38593b183e",
-   "subtitle": "yuna1107",
-   "playedAt": "2026-10-20T16:25:11.342Z"
-  },
-  {
-   "uri": "spotify:playlist:1fyZmmKax7y9uU2ry1DD3k",
-   "type": "playlist",
-   "name": "『超かぐや姫！』公式プレイリスト",
-   "url": "https://open.spotify.com/playlist/1fyZmmKax7y9uU2ry1DD3k",
-   "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c690f1fb3fa54688f2200d852",
-   "subtitle": "『超かぐや姫！』公式",
-   "playedAt": "2026-10-18T11:56:18.554Z"
-  },
-  {
-   "uri": "spotify:artist:3gkMdMtviTQoofffgEPSLW",
-   "type": "artist",
-   "name": "0.2lx",
-   "url": "https://open.spotify.com/artist/3gkMdMtviTQoofffgEPSLW",
-   "image": "https://i.scdn.co/image/ab67616100005174f63110aeed00d3ef226303cb",
-   "subtitle": "",
-   "playedAt": "2026-10-18T05:32:17.516Z"
   }
  ],
  "playlists": [
+  {
+   "name": "2020年代Mix of 2026.10.30",
+   "url": "https://open.spotify.com/playlist/2gJdwkFW5GwlZPhUgCeQmZ",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e0203131cb44d03b2fb3a5ba974ab67616d00001e0266bcc4d2089c8fa85514d386ab67616d00001e02775e8184725e0fb89337dd9aab67616d00001e02e181ac171ce5358285a74536",
+   "description": "",
+   "tracks": 50,
+   "createdAt": "2026-10-30T06:25:28Z"
+  },
   {
    "name": "25時、ナイトコードで。 Radio of 2026.10.29",
    "url": "https://open.spotify.com/playlist/1eJiXVZZg3JH6DtBLdJSzU",
@@ -321,23 +329,9 @@
    "description": "",
    "tracks": 50,
    "createdAt": "2026-10-21T23:49:01Z"
-  },
-  {
-   "name": "Lucia Radio of 2026.10.20",
-   "url": "https://open.spotify.com/playlist/5oMrTwKGn9Q4xFaaJkH9Yc",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e025a5b2d88471a17cd62a9c002ab67616d00001e02a913c643901e9af9028358dcab67616d00001e02cb72fb620bfe89a958565d3aab67616d00001e02f562ec3a443dba38593b183e",
-   "description": "",
-   "tracks": 50,
-   "createdAt": "2026-10-20T11:46:39Z"
   }
  ],
  "days": [
-  {
-   "date": "2025-10-31",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-01",
    "count": 0,
@@ -2488,9 +2482,14 @@
   },
   {
    "date": "2026-10-30",
-   "count": 14,
+   "count": 61,
+   "level": 4
+  },
+  {
+   "date": "2026-10-31",
+   "count": 4,
    "level": 1
   }
  ],
- "updatedAt": "2026-10-30T00:38:49.671Z"
+ "updatedAt": "2026-10-31T00:28:26.002Z"
 }
