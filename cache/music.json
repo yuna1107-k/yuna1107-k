@@ -74,13 +74,6 @@
    "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
   },
   {
-   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
-   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
-   "artists": "25時、ナイトコードで。",
-   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
-   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
-  },
-  {
    "name": "心の奥",
    "url": "https://open.spotify.com/track/0tbeRI5RFnZlqufHP7bMnS",
    "artists": "Rokudenashi",
@@ -100,6 +93,13 @@
    "artists": "balloon",
    "album": "レム",
    "image": "https://i.scdn.co/image/ab67616d00004851726e368c9e9cc4eec8242979"
+  },
+  {
+   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
+   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
+   "artists": "25時、ナイトコードで。",
+   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
+   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
   },
   {
    "name": "旅に帰る (feat. 初音ミク & 重音テト)",
@@ -131,7 +131,16 @@
    "url": "https://open.spotify.com/artist/1VMXuPyhNldYomz8ojLKP7",
    "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844",
    "subtitle": "",
-   "playedAt": "2026-10-31T23:47:21.633Z"
+   "playedAt": "2026-11-01T23:46:11.514Z"
+  },
+  {
+   "uri": "spotify:album:76j2WmqmJP4Um3Pal30ydc",
+   "type": "single",
+   "name": "Find Me",
+   "url": "https://open.spotify.com/album/76j2WmqmJP4Um3Pal30ydc",
+   "image": "https://i.scdn.co/image/ab67616d00001e0270304854be9b69180645a1e1",
+   "subtitle": "*Luna",
+   "playedAt": "2026-11-01T23:34:54.833Z"
   },
   {
    "uri": "spotify:playlist:1eJiXVZZg3JH6DtBLdJSzU",
@@ -294,15 +303,6 @@
    "image": "https://i.scdn.co/image/ab67616d00001e02a1ab52ba6777eb4273e7adf8",
    "subtitle": "",
    "playedAt": "2026-10-20T16:52:12.342Z"
-  },
-  {
-   "uri": "spotify:artist:7CXyP7IN0L3ySUeIQ6Ymu1",
-   "type": "artist",
-   "name": "Leo/need",
-   "url": "https://open.spotify.com/artist/7CXyP7IN0L3ySUeIQ6Ymu1",
-   "image": "https://i.scdn.co/image/ab67616d00001e02c63e9f758f4e8eceadabc3f0",
-   "subtitle": "",
-   "playedAt": "2026-10-20T16:45:15.273Z"
   }
  ],
  "playlists": [
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-02",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-03",
    "count": 0,
@@ -2332,7 +2326,7 @@
   {
    "date": "2026-10-01",
    "count": 29,
-   "level": 2
+   "level": 3
   },
   {
    "date": "2026-10-02",
@@ -2486,9 +2480,14 @@
   },
   {
    "date": "2026-11-01",
-   "count": 3,
+   "count": 16,
+   "level": 2
+  },
+  {
+   "date": "2026-11-02",
+   "count": 8,
    "level": 1
   }
  ],
- "updatedAt": "2026-10-31T23:57:35.654Z"
+ "updatedAt": "2026-11-02T00:20:17.830Z"
 }
