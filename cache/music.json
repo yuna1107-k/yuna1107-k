@@ -125,13 +125,22 @@
  ],
  "recent": [
   {
+   "uri": "spotify:playlist:2gFbYD3tAvBm03W05jK9dy",
+   "type": "playlist",
+   "name": "2026.11.",
+   "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-11-02T13:53:36.736Z"
+  },
+  {
    "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
    "type": "artist",
    "name": "25時、ナイトコードで。",
    "url": "https://open.spotify.com/artist/1VMXuPyhNldYomz8ojLKP7",
    "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844",
    "subtitle": "",
-   "playedAt": "2026-11-01T23:46:11.514Z"
+   "playedAt": "2026-11-01T23:53:02.630Z"
   },
   {
    "uri": "spotify:album:76j2WmqmJP4Um3Pal30ydc",
@@ -294,18 +303,17 @@
    "image": "https://i.scdn.co/image/ab67616100005174de6b03e1ce3f4d3427e8cdf9",
    "subtitle": "",
    "playedAt": "2026-10-20T23:22:27.488Z"
-  },
-  {
-   "uri": "spotify:artist:3p5u6C63zDYR7KIiRybuKu",
-   "type": "artist",
-   "name": "剣持刀也",
-   "url": "https://open.spotify.com/artist/3p5u6C63zDYR7KIiRybuKu",
-   "image": "https://i.scdn.co/image/ab67616d00001e02a1ab52ba6777eb4273e7adf8",
-   "subtitle": "",
-   "playedAt": "2026-10-20T16:52:12.342Z"
   }
  ],
  "playlists": [
+  {
+   "name": "2026.11.",
+   "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
+   "description": "",
+   "tracks": 19,
+   "createdAt": "2026-11-02T12:19:04Z"
+  },
   {
    "name": "2020年代Mix of 2026.10.30",
    "url": "https://open.spotify.com/playlist/2gJdwkFW5GwlZPhUgCeQmZ",
@@ -321,23 +329,9 @@
    "description": "",
    "tracks": 50,
    "createdAt": "2026-10-29T09:14:38Z"
-  },
-  {
-   "name": "レム Radio of 2026.10.22",
-   "url": "https://open.spotify.com/playlist/5woINc9obVNGD5pPFmc0RH",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e02726e368c9e9cc4eec8242979ab67616d00001e028428ef102bb1dd579d053870ab67616d00001e02934b7db2dbd8eb7791a4c4b5ab67616d00001e02e181ac171ce5358285a74536",
-   "description": "",
-   "tracks": 50,
-   "createdAt": "2026-10-21T23:49:01Z"
   }
  ],
  "days": [
-  {
-   "date": "2025-11-03",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-04",
    "count": 0,
@@ -2481,13 +2475,18 @@
   {
    "date": "2026-11-01",
    "count": 16,
-   "level": 2
+   "level": 1
   },
   {
    "date": "2026-11-02",
-   "count": 8,
-   "level": 1
+   "count": 22,
+   "level": 2
+  },
+  {
+   "date": "2026-11-03",
+   "count": 0,
+   "level": 0
   }
  ],
- "updatedAt": "2026-11-02T00:20:17.830Z"
+ "updatedAt": "2026-11-03T02:46:39.809Z"
 }
