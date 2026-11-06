@@ -4,21 +4,16 @@
   "url": "https://github.com/yuna1107-k"
  },
  "totals": {
-  "contributions": 1476,
-  "commits": 694,
-  "pullRequests": 210,
-  "issues": 157,
+  "contributions": 1623,
+  "commits": 826,
+  "pullRequests": 228,
+  "issues": 158,
   "reviews": 0,
-  "private": 1291,
-  "publicRepos": 15,
-  "privateRepos": 27
+  "private": 1429,
+  "publicRepos": 16,
+  "privateRepos": 31
  },
  "days": [
-  {
-   "date": "2025-11-05",
-   "level": 0,
-   "count": 0
-  },
   {
    "date": "2025-11-06",
    "level": 0,
@@ -1841,8 +1836,13 @@
   },
   {
    "date": "2026-11-05",
-   "level": 1,
-   "count": 1
+   "level": 3,
+   "count": 69
+  },
+  {
+   "date": "2026-11-06",
+   "level": 3,
+   "count": 79
   }
  ],
  "repositories": [
@@ -1887,6 +1887,14 @@
    "commits": 8
   },
   {
+   "name": "home-status",
+   "url": "https://github.com/yuna1107-k/home-status",
+   "isPrivate": false,
+   "language": "Python",
+   "color": "#3572A5",
+   "commits": 6
+  },
+  {
    "name": "HCE_Android",
    "url": "https://github.com/yuna1107-k/HCE_Android",
    "isPrivate": false,
@@ -1901,17 +1909,14 @@
    "language": "Kotlin",
    "color": "#A97BFF",
    "commits": 3
-  },
-  {
-   "name": "Public_CrazyClock",
-   "url": "https://github.com/yuna1107-k/Public_CrazyClock",
-   "isPrivate": false,
-   "language": "C++",
-   "color": "#f34b7d",
-   "commits": 3
   }
  ],
  "languages": [
+  {
+   "name": "Python",
+   "color": "#3572A5",
+   "commits": 29
+  },
   {
    "name": "Dart",
    "color": "#00B4AB",
@@ -1921,11 +1926,6 @@
    "name": "JavaScript",
    "color": "#f1e05a",
    "commits": 26
-  },
-  {
-   "name": "Python",
-   "color": "#3572A5",
-   "commits": 23
   },
   {
    "name": "Java",
@@ -1948,5 +1948,5 @@
    "commits": 3
   }
  ],
- "updatedAt": "2026-11-05T01:19:46.894Z"
+ "updatedAt": "2026-11-06T01:24:33.564Z"
 }

@@ -81,20 +81,6 @@
    "image": "https://i.scdn.co/image/ab67616d0000485166bcc4d2089c8fa85514d386"
   },
   {
-   "name": "心の奥",
-   "url": "https://open.spotify.com/track/0tbeRI5RFnZlqufHP7bMnS",
-   "artists": "Rokudenashi",
-   "album": "溜息",
-   "image": "https://i.scdn.co/image/ab67616d00004851dabda3186be969dbdd218d98"
-  },
-  {
-   "name": "レム",
-   "url": "https://open.spotify.com/track/7jknqnVScv1P6ed2b7YCh1",
-   "artists": "balloon",
-   "album": "レム",
-   "image": "https://i.scdn.co/image/ab67616d00004851726e368c9e9cc4eec8242979"
-  },
-  {
    "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
    "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
    "artists": "25時、ナイトコードで。",
@@ -109,6 +95,13 @@
    "image": "https://i.scdn.co/image/ab67616d000048514c5fbc140ca7885b0e21e3b5"
   },
   {
+   "name": "レム",
+   "url": "https://open.spotify.com/track/7jknqnVScv1P6ed2b7YCh1",
+   "artists": "balloon",
+   "album": "レム",
+   "image": "https://i.scdn.co/image/ab67616d00004851726e368c9e9cc4eec8242979"
+  },
+  {
    "name": "エメラルド",
    "url": "https://open.spotify.com/track/6m93jhY37ewvEMkUu0rMh6",
    "artists": "Tatsuya Kitani",
@@ -116,14 +109,39 @@
    "image": "https://i.scdn.co/image/ab67616d0000485146a625feddf73aeb5ed9337f"
   },
   {
-   "name": "透過する温度 (feat. 小豆沢こはね&白石杏&東雲彰人&青柳冬弥&KAITO)",
-   "url": "https://open.spotify.com/track/5PkaxDkauHWRbt1Lf5dcus",
-   "artists": "Vivid BAD SQUAD",
-   "album": "ファイター/透過する温度",
-   "image": "https://i.scdn.co/image/ab67616d00004851e181ac171ce5358285a74536"
+   "name": "心の奥",
+   "url": "https://open.spotify.com/track/0tbeRI5RFnZlqufHP7bMnS",
+   "artists": "Rokudenashi",
+   "album": "溜息",
+   "image": "https://i.scdn.co/image/ab67616d00004851dabda3186be969dbdd218d98"
+  },
+  {
+   "name": "限りなく灰色へ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&鏡音リン)",
+   "url": "https://open.spotify.com/track/2kvYOzDQ8BZ9t0w3XU2Qpi",
+   "artists": "25時、ナイトコードで。",
+   "album": "限りなく灰色へ/アイディスマイル",
+   "image": "https://i.scdn.co/image/ab67616d0000485107fd0feba0f7e8a4d7313f61"
   }
  ],
  "recent": [
+  {
+   "uri": "spotify:artist:46j7YE7YDwC1zb7RnoyLiV",
+   "type": "artist",
+   "name": "STUDY WITH MIKU",
+   "url": "https://open.spotify.com/artist/46j7YE7YDwC1zb7RnoyLiV",
+   "image": "https://i.scdn.co/image/ab67616d00001e02362d9c74cd67cc38326ef361",
+   "subtitle": "",
+   "playedAt": "2026-11-06T01:23:37.266Z"
+  },
+  {
+   "uri": "spotify:album:5lmD4sG9tiyZf6yTGz0NMx",
+   "type": "album",
+   "name": "透明夜",
+   "url": "https://open.spotify.com/album/5lmD4sG9tiyZf6yTGz0NMx",
+   "image": "https://i.scdn.co/image/ab67616d00001e02bbb19d18f18f9900f735a037",
+   "subtitle": "Kotoha",
+   "playedAt": "2026-11-05T23:45:22.122Z"
+  },
   {
    "uri": "spotify:playlist:2gFbYD3tAvBm03W05jK9dy",
    "type": "playlist",
@@ -131,7 +149,7 @@
    "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
    "subtitle": "yuna1107",
-   "playedAt": "2026-11-04T15:13:06.192Z"
+   "playedAt": "2026-11-05T03:14:22.002Z"
   },
   {
    "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
@@ -285,24 +303,6 @@
    "image": "https://i.scdn.co/image/ab67616d00001e0284422d2c2c4558fde628280d",
    "subtitle": "ヨノ",
    "playedAt": "2026-10-20T23:40:17.898Z"
-  },
-  {
-   "uri": "spotify:album:6HHNNh9GDwBAGugWY0MfRB",
-   "type": "single",
-   "name": "それなのに",
-   "url": "https://open.spotify.com/album/6HHNNh9GDwBAGugWY0MfRB",
-   "image": "https://i.scdn.co/image/ab67616d00001e0295e0fa207646973472149c66",
-   "subtitle": "Uru",
-   "playedAt": "2026-10-20T23:26:33.265Z"
-  },
-  {
-   "uri": "spotify:artist:726WiFmWkohzodUxK3XjHX",
-   "type": "artist",
-   "name": "Hoshimachi Suisei",
-   "url": "https://open.spotify.com/artist/726WiFmWkohzodUxK3XjHX",
-   "image": "https://i.scdn.co/image/ab67616100005174de6b03e1ce3f4d3427e8cdf9",
-   "subtitle": "",
-   "playedAt": "2026-10-20T23:22:27.488Z"
   }
  ],
  "playlists": [
@@ -311,7 +311,7 @@
    "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
    "description": "",
-   "tracks": 25,
+   "tracks": 26,
    "createdAt": "2026-11-02T12:19:04Z"
   },
   {
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-06",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-07",
    "count": 0,
@@ -2482,9 +2476,14 @@
   },
   {
    "date": "2026-11-05",
-   "count": 7,
+   "count": 13,
    "level": 1
+  },
+  {
+   "date": "2026-11-06",
+   "count": 73,
+   "level": 4
   }
  ],
- "updatedAt": "2026-11-05T01:19:42.028Z"
+ "updatedAt": "2026-11-06T01:24:29.469Z"
 }
