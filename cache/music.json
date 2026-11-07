@@ -16,11 +16,6 @@
    "image": "https://i.scdn.co/image/ab676161000051748e845ff0d9a9fac632f423d0"
   },
   {
-   "name": "*Luna",
-   "url": "https://open.spotify.com/artist/4vwJe968gHHZzL0or0gSZA",
-   "image": "https://i.scdn.co/image/ab676161000051744fa0e60615042c12a05a07ab"
-  },
-  {
    "name": "内緒のピアス",
    "url": "https://open.spotify.com/artist/7qBT0UgBDfLt3ZpKLUzFBL",
    "image": "https://i.scdn.co/image/ab67616100005174167079103a3d5d9f69bcbe50"
@@ -31,6 +26,16 @@
    "image": "https://i.scdn.co/image/ab676161000051744f28e73974e52cba42d04bd1"
   },
   {
+   "name": "*Luna",
+   "url": "https://open.spotify.com/artist/4vwJe968gHHZzL0or0gSZA",
+   "image": "https://i.scdn.co/image/ab676161000051744fa0e60615042c12a05a07ab"
+  },
+  {
+   "name": "STUDY WITH MIKU",
+   "url": "https://open.spotify.com/artist/46j7YE7YDwC1zb7RnoyLiV",
+   "image": "https://i.scdn.co/image/ab67616d00001e02362d9c74cd67cc38326ef361"
+  },
+  {
    "name": "Hoshimachi Suisei",
    "url": "https://open.spotify.com/artist/726WiFmWkohzodUxK3XjHX",
    "image": "https://i.scdn.co/image/ab67616100005174de6b03e1ce3f4d3427e8cdf9"
@@ -39,11 +44,6 @@
    "name": "Leo/need",
    "url": "https://open.spotify.com/artist/7CXyP7IN0L3ySUeIQ6Ymu1",
    "image": "https://i.scdn.co/image/ab67616d00001e02c63e9f758f4e8eceadabc3f0"
-  },
-  {
-   "name": "STUDY WITH MIKU",
-   "url": "https://open.spotify.com/artist/46j7YE7YDwC1zb7RnoyLiV",
-   "image": "https://i.scdn.co/image/ab67616d00001e02362d9c74cd67cc38326ef361"
   },
   {
    "name": "Aimer",
@@ -67,13 +67,6 @@
    "image": "https://i.scdn.co/image/ab67616d00004851b75756b0d41bbb317e610453"
   },
   {
-   "name": "sunshine",
-   "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
-   "artists": "waka",
-   "album": "sunshine",
-   "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
-  },
-  {
    "name": "透明軌道",
    "url": "https://open.spotify.com/track/130g6pEWAP6hsgEQ4kbT19",
    "artists": "HACHI",
@@ -81,18 +74,18 @@
    "image": "https://i.scdn.co/image/ab67616d0000485166bcc4d2089c8fa85514d386"
   },
   {
+   "name": "sunshine",
+   "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
+   "artists": "waka",
+   "album": "sunshine",
+   "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
+  },
+  {
    "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
    "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
    "artists": "25時、ナイトコードで。",
    "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
    "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
-  },
-  {
-   "name": "旅に帰る (feat. 初音ミク & 重音テト)",
-   "url": "https://open.spotify.com/track/0NXLPWclWPy8wOGfbLQNPI",
-   "artists": "カンザキイオリ, Hatsune Miku, Teto Kasane",
-   "album": "旅に帰る (feat. 初音ミク & 重音テト)",
-   "image": "https://i.scdn.co/image/ab67616d000048514c5fbc140ca7885b0e21e3b5"
   },
   {
    "name": "レム",
@@ -116,14 +109,39 @@
    "image": "https://i.scdn.co/image/ab67616d00004851dabda3186be969dbdd218d98"
   },
   {
-   "name": "限りなく灰色へ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&鏡音リン)",
-   "url": "https://open.spotify.com/track/2kvYOzDQ8BZ9t0w3XU2Qpi",
-   "artists": "25時、ナイトコードで。",
-   "album": "限りなく灰色へ/アイディスマイル",
-   "image": "https://i.scdn.co/image/ab67616d0000485107fd0feba0f7e8a4d7313f61"
+   "name": "旅に帰る (feat. 初音ミク & 重音テト)",
+   "url": "https://open.spotify.com/track/0NXLPWclWPy8wOGfbLQNPI",
+   "artists": "カンザキイオリ, Hatsune Miku, Teto Kasane",
+   "album": "旅に帰る (feat. 初音ミク & 重音テト)",
+   "image": "https://i.scdn.co/image/ab67616d000048514c5fbc140ca7885b0e21e3b5"
+  },
+  {
+   "name": "祝祭！無スティバル",
+   "url": "https://open.spotify.com/track/4yaEaeHhLIVgcRFAV3zjoK",
+   "artists": "剣持刀也",
+   "album": "Augment",
+   "image": "https://i.scdn.co/image/ab67616d00004851bddaef3038163c29ddd8b35a"
   }
  ],
  "recent": [
+  {
+   "uri": "spotify:playlist:3n95MRT3utQcc0eFzlroJO",
+   "type": "playlist",
+   "name": "yuna1107's selection",
+   "url": "https://open.spotify.com/playlist/3n95MRT3utQcc0eFzlroJO",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e026faeb9a38b4cbfbf7d899b8bab67616d00001e0279e1ca40773449b7a8c20d5fab67616d00001e02cf88bd1c6d3bfd3ac34605c8ab67616d00001e02f724e5bdf4ae3e50082c2403",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-11-06T21:00:06.358Z"
+  },
+  {
+   "uri": "spotify:playlist:2gFbYD3tAvBm03W05jK9dy",
+   "type": "playlist",
+   "name": "2026.11.",
+   "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-11-06T05:01:12.214Z"
+  },
   {
    "uri": "spotify:artist:46j7YE7YDwC1zb7RnoyLiV",
    "type": "artist",
@@ -131,7 +149,7 @@
    "url": "https://open.spotify.com/artist/46j7YE7YDwC1zb7RnoyLiV",
    "image": "https://i.scdn.co/image/ab67616d00001e02362d9c74cd67cc38326ef361",
    "subtitle": "",
-   "playedAt": "2026-11-06T01:23:37.266Z"
+   "playedAt": "2026-11-06T01:40:44.327Z"
   },
   {
    "uri": "spotify:album:5lmD4sG9tiyZf6yTGz0NMx",
@@ -141,15 +159,6 @@
    "image": "https://i.scdn.co/image/ab67616d00001e02bbb19d18f18f9900f735a037",
    "subtitle": "Kotoha",
    "playedAt": "2026-11-05T23:45:22.122Z"
-  },
-  {
-   "uri": "spotify:playlist:2gFbYD3tAvBm03W05jK9dy",
-   "type": "playlist",
-   "name": "2026.11.",
-   "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
-   "subtitle": "yuna1107",
-   "playedAt": "2026-11-05T03:14:22.002Z"
   },
   {
    "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
@@ -294,24 +303,23 @@
    "image": "https://i.scdn.co/image/ab67616d00001e0210b9eab40f7ee41623369464",
    "subtitle": "町田ちま",
    "playedAt": "2026-10-21T01:40:09.107Z"
-  },
-  {
-   "uri": "spotify:album:0QWkRhBckFJ0jKQL0YtJly",
-   "type": "single",
-   "name": "拝啓、はじまりの色",
-   "url": "https://open.spotify.com/album/0QWkRhBckFJ0jKQL0YtJly",
-   "image": "https://i.scdn.co/image/ab67616d00001e0284422d2c2c4558fde628280d",
-   "subtitle": "ヨノ",
-   "playedAt": "2026-10-20T23:40:17.898Z"
   }
  ],
  "playlists": [
+  {
+   "name": "yuna1107's selection",
+   "url": "https://open.spotify.com/playlist/3n95MRT3utQcc0eFzlroJO",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e026faeb9a38b4cbfbf7d899b8bab67616d00001e0279e1ca40773449b7a8c20d5fab67616d00001e02cf88bd1c6d3bfd3ac34605c8ab67616d00001e02f724e5bdf4ae3e50082c2403",
+   "description": "",
+   "tracks": 29,
+   "createdAt": "2026-11-06T09:42:37Z"
+  },
   {
    "name": "2026.11.",
    "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
    "description": "",
-   "tracks": 26,
+   "tracks": 27,
    "createdAt": "2026-11-02T12:19:04Z"
   },
   {
@@ -321,23 +329,9 @@
    "description": "",
    "tracks": 50,
    "createdAt": "2026-10-30T06:25:28Z"
-  },
-  {
-   "name": "25時、ナイトコードで。 Radio of 2026.10.29",
-   "url": "https://open.spotify.com/playlist/1eJiXVZZg3JH6DtBLdJSzU",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e026549e0ca9064d28052bade1aab67616d00001e028c489aa548f8ad7a4f078abdab67616d00001e02c63e9f758f4e8eceadabc3f0ab67616d00001e02c8934e21790baf3a9b65c44d",
-   "description": "",
-   "tracks": 50,
-   "createdAt": "2026-10-29T09:14:38Z"
   }
  ],
  "days": [
-  {
-   "date": "2025-11-07",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-08",
    "count": 0,
@@ -2481,9 +2475,14 @@
   },
   {
    "date": "2026-11-06",
-   "count": 73,
+   "count": 146,
    "level": 4
+  },
+  {
+   "date": "2026-11-07",
+   "count": 14,
+   "level": 2
   }
  ],
- "updatedAt": "2026-11-06T01:24:29.469Z"
+ "updatedAt": "2026-11-07T00:39:42.718Z"
 }
