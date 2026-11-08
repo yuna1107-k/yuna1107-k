@@ -95,11 +95,18 @@
    "image": "https://i.scdn.co/image/ab67616d00004851726e368c9e9cc4eec8242979"
   },
   {
+   "name": "幸福刑 (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&MEIKO)",
+   "url": "https://open.spotify.com/track/49yCnmyR33GiVZrNDVbHZk",
+   "artists": "25時、ナイトコードで。",
+   "album": "その絵の名前は/幸福刑",
+   "image": "https://i.scdn.co/image/ab67616d000048510c2882dd6e63fa25a1f1678b"
+  },
+  {
    "name": "エメラルド",
-   "url": "https://open.spotify.com/track/6m93jhY37ewvEMkUu0rMh6",
+   "url": "https://open.spotify.com/track/73OP3NONm74Wsod2T2IP78",
    "artists": "Tatsuya Kitani",
-   "album": "エメラルド",
-   "image": "https://i.scdn.co/image/ab67616d0000485146a625feddf73aeb5ed9337f"
+   "album": "PURE",
+   "image": "https://i.scdn.co/image/ab67616d00004851750008babf4f7387d2ac7f40"
   },
   {
    "name": "心の奥",
@@ -114,16 +121,18 @@
    "artists": "カンザキイオリ, Hatsune Miku, Teto Kasane",
    "album": "旅に帰る (feat. 初音ミク & 重音テト)",
    "image": "https://i.scdn.co/image/ab67616d000048514c5fbc140ca7885b0e21e3b5"
-  },
-  {
-   "name": "祝祭！無スティバル",
-   "url": "https://open.spotify.com/track/4yaEaeHhLIVgcRFAV3zjoK",
-   "artists": "剣持刀也",
-   "album": "Augment",
-   "image": "https://i.scdn.co/image/ab67616d00004851bddaef3038163c29ddd8b35a"
   }
  ],
  "recent": [
+  {
+   "uri": "spotify:playlist:2gFbYD3tAvBm03W05jK9dy",
+   "type": "playlist",
+   "name": "2026.11.",
+   "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-11-07T11:39:45.960Z"
+  },
   {
    "uri": "spotify:playlist:3n95MRT3utQcc0eFzlroJO",
    "type": "playlist",
@@ -132,15 +141,6 @@
    "image": "https://mosaic.scdn.co/300/ab67616d00001e026faeb9a38b4cbfbf7d899b8bab67616d00001e0279e1ca40773449b7a8c20d5fab67616d00001e02cf88bd1c6d3bfd3ac34605c8ab67616d00001e02f724e5bdf4ae3e50082c2403",
    "subtitle": "yuna1107",
    "playedAt": "2026-11-06T21:00:06.358Z"
-  },
-  {
-   "uri": "spotify:playlist:2gFbYD3tAvBm03W05jK9dy",
-   "type": "playlist",
-   "name": "2026.11.",
-   "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
-   "subtitle": "yuna1107",
-   "playedAt": "2026-11-06T05:01:12.214Z"
   },
   {
    "uri": "spotify:artist:46j7YE7YDwC1zb7RnoyLiV",
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-08",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-09",
    "count": 0,
@@ -2471,7 +2465,7 @@
   {
    "date": "2026-11-05",
    "count": 13,
-   "level": 1
+   "level": 2
   },
   {
    "date": "2026-11-06",
@@ -2480,9 +2474,14 @@
   },
   {
    "date": "2026-11-07",
-   "count": 14,
-   "level": 2
+   "count": 85,
+   "level": 4
+  },
+  {
+   "date": "2026-11-08",
+   "count": 4,
+   "level": 1
   }
  ],
- "updatedAt": "2026-11-07T00:39:42.718Z"
+ "updatedAt": "2026-11-08T00:13:50.593Z"
 }
