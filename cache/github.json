@@ -4,21 +4,16 @@
   "url": "https://github.com/yuna1107-k"
  },
  "totals": {
-  "contributions": 1706,
-  "commits": 907,
-  "pullRequests": 231,
+  "contributions": 1725,
+  "commits": 924,
+  "pullRequests": 228,
   "issues": 157,
   "reviews": 0,
-  "private": 1512,
+  "private": 1534,
   "publicRepos": 16,
-  "privateRepos": 31
+  "privateRepos": 32
  },
  "days": [
-  {
-   "date": "2025-11-09",
-   "level": 0,
-   "count": 0
-  },
   {
    "date": "2025-11-10",
    "level": 0,
@@ -1841,8 +1836,13 @@
   },
   {
    "date": "2026-11-09",
-   "level": 0,
-   "count": 0
+   "level": 1,
+   "count": 18
+  },
+  {
+   "date": "2026-11-10",
+   "level": 1,
+   "count": 1
   }
  ],
  "repositories": [
@@ -1948,5 +1948,5 @@
    "commits": 3
   }
  ],
- "updatedAt": "2026-11-09T00:36:17.139Z"
+ "updatedAt": "2026-11-10T03:14:27.507Z"
 }
