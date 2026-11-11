@@ -67,11 +67,11 @@
    "image": "https://i.scdn.co/image/ab67616d00004851b75756b0d41bbb317e610453"
   },
   {
-   "name": "sunshine",
-   "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
-   "artists": "waka",
-   "album": "sunshine",
-   "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
+   "name": "幸福刑 (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&MEIKO)",
+   "url": "https://open.spotify.com/track/49yCnmyR33GiVZrNDVbHZk",
+   "artists": "25時、ナイトコードで。",
+   "album": "その絵の名前は/幸福刑",
+   "image": "https://i.scdn.co/image/ab67616d000048510c2882dd6e63fa25a1f1678b"
   },
   {
    "name": "透明軌道",
@@ -81,6 +81,13 @@
    "image": "https://i.scdn.co/image/ab67616d0000485166bcc4d2089c8fa85514d386"
   },
   {
+   "name": "sunshine",
+   "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
+   "artists": "waka",
+   "album": "sunshine",
+   "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
+  },
+  {
    "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
    "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
    "artists": "25時、ナイトコードで。",
@@ -88,11 +95,18 @@
    "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
   },
   {
-   "name": "幸福刑 (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&MEIKO)",
-   "url": "https://open.spotify.com/track/49yCnmyR33GiVZrNDVbHZk",
-   "artists": "25時、ナイトコードで。",
-   "album": "その絵の名前は/幸福刑",
-   "image": "https://i.scdn.co/image/ab67616d000048510c2882dd6e63fa25a1f1678b"
+   "name": "生きていたんだよな",
+   "url": "https://open.spotify.com/track/69jrtjVjyzRyPCDg0dHYCX",
+   "artists": "Aimyon",
+   "album": "青春のエキサイトメント",
+   "image": "https://i.scdn.co/image/ab67616d0000485133c05e1d08fec494a30bd240"
+  },
+  {
+   "name": "エメラルド",
+   "url": "https://open.spotify.com/track/73OP3NONm74Wsod2T2IP78",
+   "artists": "Tatsuya Kitani",
+   "album": "PURE",
+   "image": "https://i.scdn.co/image/ab67616d00004851750008babf4f7387d2ac7f40"
   },
   {
    "name": "レム",
@@ -107,23 +121,18 @@
    "artists": "カンザキイオリ, Hatsune Miku, Teto Kasane",
    "album": "旅に帰る (feat. 初音ミク & 重音テト)",
    "image": "https://i.scdn.co/image/ab67616d000048514c5fbc140ca7885b0e21e3b5"
-  },
-  {
-   "name": "祝祭！無スティバル",
-   "url": "https://open.spotify.com/track/4yaEaeHhLIVgcRFAV3zjoK",
-   "artists": "剣持刀也",
-   "album": "Augment",
-   "image": "https://i.scdn.co/image/ab67616d00004851bddaef3038163c29ddd8b35a"
-  },
-  {
-   "name": "心の奥",
-   "url": "https://open.spotify.com/track/0tbeRI5RFnZlqufHP7bMnS",
-   "artists": "Rokudenashi",
-   "album": "溜息",
-   "image": "https://i.scdn.co/image/ab67616d00004851dabda3186be969dbdd218d98"
   }
  ],
  "recent": [
+  {
+   "uri": "spotify:artist:53LkOsNxuRf7dy9VnKWNis",
+   "type": "artist",
+   "name": "Ushio Kou",
+   "url": "https://open.spotify.com/artist/53LkOsNxuRf7dy9VnKWNis",
+   "image": "https://i.scdn.co/image/ab67616100005174903a81c6f378111c0379ad32",
+   "subtitle": "",
+   "playedAt": "2026-11-10T23:03:31.854Z"
+  },
   {
    "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
    "type": "artist",
@@ -131,7 +140,7 @@
    "url": "https://open.spotify.com/artist/1VMXuPyhNldYomz8ojLKP7",
    "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844",
    "subtitle": "",
-   "playedAt": "2026-11-09T05:09:29.953Z"
+   "playedAt": "2026-11-10T14:19:20.400Z"
   },
   {
    "uri": "spotify:playlist:2gFbYD3tAvBm03W05jK9dy",
@@ -294,15 +303,6 @@
    "image": "https://mosaic.scdn.co/300/ab67616d00001e022ff996c8300902f57ee2495bab67616d00001e02b9bb58d77aa85e8dc722832fab67616d00001e02c8934e21790baf3a9b65c44dab67616d00001e02cd1b61e49c2b12b2556b5a6f",
    "subtitle": "yuna1107",
    "playedAt": "2026-10-21T09:05:08.258Z"
-  },
-  {
-   "uri": "spotify:album:5xnBggWNmGDQLOPdHt1C57",
-   "type": "single",
-   "name": "The Pages",
-   "url": "https://open.spotify.com/album/5xnBggWNmGDQLOPdHt1C57",
-   "image": "https://i.scdn.co/image/ab67616d00001e0210b9eab40f7ee41623369464",
-   "subtitle": "町田ちま",
-   "playedAt": "2026-10-21T01:40:09.107Z"
   }
  ],
  "playlists": [
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-11",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-12",
    "count": 0,
@@ -2477,9 +2471,14 @@
   },
   {
    "date": "2026-11-10",
-   "count": 1,
+   "count": 16,
+   "level": 2
+  },
+  {
+   "date": "2026-11-11",
+   "count": 4,
    "level": 1
   }
  ],
- "updatedAt": "2026-11-10T03:14:22.422Z"
+ "updatedAt": "2026-11-11T01:03:37.363Z"
 }
