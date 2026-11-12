@@ -74,6 +74,13 @@
    "image": "https://i.scdn.co/image/ab67616d000048510c2882dd6e63fa25a1f1678b"
   },
   {
+   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
+   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
+   "artists": "25時、ナイトコードで。",
+   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
+   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
+  },
+  {
    "name": "透明軌道",
    "url": "https://open.spotify.com/track/130g6pEWAP6hsgEQ4kbT19",
    "artists": "HACHI",
@@ -88,25 +95,11 @@
    "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
   },
   {
-   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
-   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
-   "artists": "25時、ナイトコードで。",
-   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
-   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
-  },
-  {
    "name": "生きていたんだよな",
    "url": "https://open.spotify.com/track/69jrtjVjyzRyPCDg0dHYCX",
    "artists": "Aimyon",
    "album": "青春のエキサイトメント",
    "image": "https://i.scdn.co/image/ab67616d0000485133c05e1d08fec494a30bd240"
-  },
-  {
-   "name": "エメラルド",
-   "url": "https://open.spotify.com/track/73OP3NONm74Wsod2T2IP78",
-   "artists": "Tatsuya Kitani",
-   "album": "PURE",
-   "image": "https://i.scdn.co/image/ab67616d00004851750008babf4f7387d2ac7f40"
   },
   {
    "name": "レム",
@@ -121,6 +114,13 @@
    "artists": "カンザキイオリ, Hatsune Miku, Teto Kasane",
    "album": "旅に帰る (feat. 初音ミク & 重音テト)",
    "image": "https://i.scdn.co/image/ab67616d000048514c5fbc140ca7885b0e21e3b5"
+  },
+  {
+   "name": "エメラルド",
+   "url": "https://open.spotify.com/track/73OP3NONm74Wsod2T2IP78",
+   "artists": "Tatsuya Kitani",
+   "album": "PURE",
+   "image": "https://i.scdn.co/image/ab67616d00004851750008babf4f7387d2ac7f40"
   }
  ],
  "recent": [
@@ -131,7 +131,7 @@
    "url": "https://open.spotify.com/artist/53LkOsNxuRf7dy9VnKWNis",
    "image": "https://i.scdn.co/image/ab67616100005174903a81c6f378111c0379ad32",
    "subtitle": "",
-   "playedAt": "2026-11-10T23:03:31.854Z"
+   "playedAt": "2026-11-11T23:37:01.761Z"
   },
   {
    "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-12",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-13",
    "count": 0,
@@ -2476,9 +2470,14 @@
   },
   {
    "date": "2026-11-11",
-   "count": 4,
+   "count": 11,
+   "level": 2
+  },
+  {
+   "date": "2026-11-12",
+   "count": 2,
    "level": 1
   }
  ],
- "updatedAt": "2026-11-11T01:03:37.363Z"
+ "updatedAt": "2026-11-12T02:08:10.310Z"
 }

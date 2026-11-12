@@ -4,21 +4,16 @@
   "url": "https://github.com/yuna1107-k"
  },
  "totals": {
-  "contributions": 1751,
-  "commits": 951,
-  "pullRequests": 228,
+  "contributions": 1865,
+  "commits": 1054,
+  "pullRequests": 238,
   "issues": 157,
   "reviews": 0,
-  "private": 1560,
+  "private": 1660,
   "publicRepos": 16,
-  "privateRepos": 32
+  "privateRepos": 33
  },
  "days": [
-  {
-   "date": "2025-11-11",
-   "level": 0,
-   "count": 0
-  },
   {
    "date": "2025-11-12",
    "level": 0,
@@ -1841,8 +1836,13 @@
   },
   {
    "date": "2026-11-11",
-   "level": 0,
-   "count": 0
+   "level": 3,
+   "count": 71
+  },
+  {
+   "date": "2026-11-12",
+   "level": 2,
+   "count": 43
   }
  ],
  "repositories": [
@@ -1861,6 +1861,14 @@
    "language": "TypeScript",
    "color": "#3178c6",
    "commits": 20
+  },
+  {
+   "name": "home-status",
+   "url": "https://github.com/yuna1107-k/home-status",
+   "isPrivate": false,
+   "language": "Python",
+   "color": "#3572A5",
+   "commits": 16
   },
   {
    "name": "math-random",
@@ -1887,14 +1895,6 @@
    "commits": 8
   },
   {
-   "name": "home-status",
-   "url": "https://github.com/yuna1107-k/home-status",
-   "isPrivate": false,
-   "language": "Python",
-   "color": "#3572A5",
-   "commits": 6
-  },
-  {
    "name": "HCE_Android",
    "url": "https://github.com/yuna1107-k/HCE_Android",
    "isPrivate": false,
@@ -1915,7 +1915,7 @@
   {
    "name": "Python",
    "color": "#3572A5",
-   "commits": 29
+   "commits": 39
   },
   {
    "name": "Dart",
@@ -1948,5 +1948,5 @@
    "commits": 3
   }
  ],
- "updatedAt": "2026-11-11T01:03:41.898Z"
+ "updatedAt": "2026-11-12T02:08:15.012Z"
 }
