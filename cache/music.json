@@ -88,13 +88,6 @@
    "image": "https://i.scdn.co/image/ab67616d0000485166bcc4d2089c8fa85514d386"
   },
   {
-   "name": "sunshine",
-   "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
-   "artists": "waka",
-   "album": "sunshine",
-   "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
-  },
-  {
    "name": "生きていたんだよな",
    "url": "https://open.spotify.com/track/69jrtjVjyzRyPCDg0dHYCX",
    "artists": "Aimyon",
@@ -116,11 +109,18 @@
    "image": "https://i.scdn.co/image/ab67616d000048514c5fbc140ca7885b0e21e3b5"
   },
   {
-   "name": "エメラルド",
-   "url": "https://open.spotify.com/track/73OP3NONm74Wsod2T2IP78",
-   "artists": "Tatsuya Kitani",
-   "album": "PURE",
-   "image": "https://i.scdn.co/image/ab67616d00004851750008babf4f7387d2ac7f40"
+   "name": "sunshine",
+   "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
+   "artists": "waka",
+   "album": "sunshine",
+   "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
+  },
+  {
+   "name": "心の奥",
+   "url": "https://open.spotify.com/track/0tbeRI5RFnZlqufHP7bMnS",
+   "artists": "Rokudenashi",
+   "album": "溜息",
+   "image": "https://i.scdn.co/image/ab67616d00004851dabda3186be969dbdd218d98"
   }
  ],
  "recent": [
@@ -131,7 +131,7 @@
    "url": "https://open.spotify.com/artist/53LkOsNxuRf7dy9VnKWNis",
    "image": "https://i.scdn.co/image/ab67616100005174903a81c6f378111c0379ad32",
    "subtitle": "",
-   "playedAt": "2026-11-11T23:37:01.761Z"
+   "playedAt": "2026-11-12T21:00:05.211Z"
   },
   {
    "uri": "spotify:artist:1VMXuPyhNldYomz8ojLKP7",
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-13",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-14",
    "count": 0,
@@ -2471,13 +2465,18 @@
   {
    "date": "2026-11-11",
    "count": 11,
-   "level": 2
+   "level": 1
   },
   {
    "date": "2026-11-12",
-   "count": 2,
+   "count": 12,
+   "level": 2
+  },
+  {
+   "date": "2026-11-13",
+   "count": 5,
    "level": 1
   }
  ],
- "updatedAt": "2026-11-12T02:08:10.310Z"
+ "updatedAt": "2026-11-13T01:41:46.783Z"
 }
