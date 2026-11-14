@@ -26,14 +26,14 @@
    "image": "https://i.scdn.co/image/ab676161000051744f28e73974e52cba42d04bd1"
   },
   {
-   "name": "*Luna",
-   "url": "https://open.spotify.com/artist/4vwJe968gHHZzL0or0gSZA",
-   "image": "https://i.scdn.co/image/ab676161000051744fa0e60615042c12a05a07ab"
-  },
-  {
    "name": "STUDY WITH MIKU",
    "url": "https://open.spotify.com/artist/46j7YE7YDwC1zb7RnoyLiV",
    "image": "https://i.scdn.co/image/ab67616d00001e02362d9c74cd67cc38326ef361"
+  },
+  {
+   "name": "*Luna",
+   "url": "https://open.spotify.com/artist/4vwJe968gHHZzL0or0gSZA",
+   "image": "https://i.scdn.co/image/ab676161000051744fa0e60615042c12a05a07ab"
   },
   {
    "name": "Hoshimachi Suisei",
@@ -81,13 +81,6 @@
    "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
   },
   {
-   "name": "透明軌道",
-   "url": "https://open.spotify.com/track/130g6pEWAP6hsgEQ4kbT19",
-   "artists": "HACHI",
-   "album": "透明軌道",
-   "image": "https://i.scdn.co/image/ab67616d0000485166bcc4d2089c8fa85514d386"
-  },
-  {
    "name": "生きていたんだよな",
    "url": "https://open.spotify.com/track/69jrtjVjyzRyPCDg0dHYCX",
    "artists": "Aimyon",
@@ -102,13 +95,6 @@
    "image": "https://i.scdn.co/image/ab67616d00004851726e368c9e9cc4eec8242979"
   },
   {
-   "name": "旅に帰る (feat. 初音ミク & 重音テト)",
-   "url": "https://open.spotify.com/track/0NXLPWclWPy8wOGfbLQNPI",
-   "artists": "カンザキイオリ, Hatsune Miku, Teto Kasane",
-   "album": "旅に帰る (feat. 初音ミク & 重音テト)",
-   "image": "https://i.scdn.co/image/ab67616d000048514c5fbc140ca7885b0e21e3b5"
-  },
-  {
    "name": "sunshine",
    "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
    "artists": "waka",
@@ -116,14 +102,37 @@
    "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
   },
   {
-   "name": "心の奥",
-   "url": "https://open.spotify.com/track/0tbeRI5RFnZlqufHP7bMnS",
-   "artists": "Rokudenashi",
-   "album": "溜息",
-   "image": "https://i.scdn.co/image/ab67616d00004851dabda3186be969dbdd218d98"
+   "name": "旅に帰る (feat. 初音ミク & 重音テト)",
+   "url": "https://open.spotify.com/track/0NXLPWclWPy8wOGfbLQNPI",
+   "artists": "カンザキイオリ, Hatsune Miku, Teto Kasane",
+   "album": "旅に帰る (feat. 初音ミク & 重音テト)",
+   "image": "https://i.scdn.co/image/ab67616d000048514c5fbc140ca7885b0e21e3b5"
+  },
+  {
+   "name": "化けの花 (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&KAITO)",
+   "url": "https://open.spotify.com/track/4MOfm19a8JZvAEfcWJLGXV",
+   "artists": "25時、ナイトコードで。",
+   "album": "エンパープル/化けの花",
+   "image": "https://i.scdn.co/image/ab67616d000048513c340cb5f99c42267289f43f"
+  },
+  {
+   "name": "贖罪",
+   "url": "https://open.spotify.com/track/58XxcSRseOVIuBzWlMdZTS",
+   "artists": "傘村トータ",
+   "album": "歩き出すのだ、傘がなくとも。",
+   "image": "https://i.scdn.co/image/ab67616d000048512c95a0737cc2ff7e5f60b631"
   }
  ],
  "recent": [
+  {
+   "uri": "spotify:artist:4IyOW0gzISV2jqbkX78Uyp",
+   "type": "artist",
+   "name": "ROF-MAO",
+   "url": "https://open.spotify.com/artist/4IyOW0gzISV2jqbkX78Uyp",
+   "image": "https://i.scdn.co/image/ab67616100005174d107f13334a871be1a462cc3",
+   "subtitle": "",
+   "playedAt": "2026-11-13T11:03:05.074Z"
+  },
   {
    "uri": "spotify:artist:53LkOsNxuRf7dy9VnKWNis",
    "type": "artist",
@@ -294,15 +303,6 @@
    "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8447c7e3c39f48d76becef0e21",
    "subtitle": "ぽん吉",
    "playedAt": "2026-10-24T05:43:38.045Z"
-  },
-  {
-   "uri": "spotify:playlist:5Ujb7N0woRjVzSR4jDNxql",
-   "type": "playlist",
-   "name": "2026.09.",
-   "url": "https://open.spotify.com/playlist/5Ujb7N0woRjVzSR4jDNxql",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e022ff996c8300902f57ee2495bab67616d00001e02b9bb58d77aa85e8dc722832fab67616d00001e02c8934e21790baf3a9b65c44dab67616d00001e02cd1b61e49c2b12b2556b5a6f",
-   "subtitle": "yuna1107",
-   "playedAt": "2026-10-21T09:05:08.258Z"
   }
  ],
  "playlists": [
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-14",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-15",
    "count": 0,
@@ -2370,7 +2364,7 @@
   {
    "date": "2026-10-23",
    "count": 60,
-   "level": 3
+   "level": 4
   },
   {
    "date": "2026-10-24",
@@ -2390,7 +2384,7 @@
   {
    "date": "2026-10-27",
    "count": 60,
-   "level": 3
+   "level": 4
   },
   {
    "date": "2026-10-28",
@@ -2474,9 +2468,14 @@
   },
   {
    "date": "2026-11-13",
-   "count": 5,
+   "count": 43,
+   "level": 3
+  },
+  {
+   "date": "2026-11-14",
+   "count": 8,
    "level": 1
   }
  ],
- "updatedAt": "2026-11-13T01:41:46.783Z"
+ "updatedAt": "2026-11-14T01:18:59.499Z"
 }
