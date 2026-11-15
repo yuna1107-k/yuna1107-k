@@ -88,13 +88,6 @@
    "image": "https://i.scdn.co/image/ab67616d0000485133c05e1d08fec494a30bd240"
   },
   {
-   "name": "レム",
-   "url": "https://open.spotify.com/track/7jknqnVScv1P6ed2b7YCh1",
-   "artists": "balloon",
-   "album": "レム",
-   "image": "https://i.scdn.co/image/ab67616d00004851726e368c9e9cc4eec8242979"
-  },
-  {
    "name": "sunshine",
    "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
    "artists": "waka",
@@ -102,11 +95,11 @@
    "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
   },
   {
-   "name": "旅に帰る (feat. 初音ミク & 重音テト)",
-   "url": "https://open.spotify.com/track/0NXLPWclWPy8wOGfbLQNPI",
-   "artists": "カンザキイオリ, Hatsune Miku, Teto Kasane",
-   "album": "旅に帰る (feat. 初音ミク & 重音テト)",
-   "image": "https://i.scdn.co/image/ab67616d000048514c5fbc140ca7885b0e21e3b5"
+   "name": "レム",
+   "url": "https://open.spotify.com/track/7jknqnVScv1P6ed2b7YCh1",
+   "artists": "balloon",
+   "album": "レム",
+   "image": "https://i.scdn.co/image/ab67616d00004851726e368c9e9cc4eec8242979"
   },
   {
    "name": "化けの花 (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&KAITO)",
@@ -121,6 +114,13 @@
    "artists": "傘村トータ",
    "album": "歩き出すのだ、傘がなくとも。",
    "image": "https://i.scdn.co/image/ab67616d000048512c95a0737cc2ff7e5f60b631"
+  },
+  {
+   "name": "少女レイ",
+   "url": "https://open.spotify.com/track/1k5F2EwzptN821wy7cPggG",
+   "artists": "Mikito P",
+   "album": "少女レイ",
+   "image": "https://i.scdn.co/image/ab67616d00004851a95d6a7b750b2d69eb5f2f6b"
   }
  ],
  "recent": [
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-15",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-16",
    "count": 0,
@@ -2459,7 +2453,7 @@
   {
    "date": "2026-11-11",
    "count": 11,
-   "level": 1
+   "level": 2
   },
   {
    "date": "2026-11-12",
@@ -2473,9 +2467,14 @@
   },
   {
    "date": "2026-11-14",
-   "count": 8,
+   "count": 9,
+   "level": 1
+  },
+  {
+   "date": "2026-11-15",
+   "count": 5,
    "level": 1
   }
  ],
- "updatedAt": "2026-11-14T01:18:59.499Z"
+ "updatedAt": "2026-11-15T00:49:01.955Z"
 }
