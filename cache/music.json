@@ -21,6 +21,11 @@
    "image": "https://i.scdn.co/image/ab67616100005174167079103a3d5d9f69bcbe50"
   },
   {
+   "name": "ROF-MAO",
+   "url": "https://open.spotify.com/artist/4IyOW0gzISV2jqbkX78Uyp",
+   "image": "https://i.scdn.co/image/ab67616100005174a98d63c5eaec3ec526556378"
+  },
+  {
    "name": "waka",
    "url": "https://open.spotify.com/artist/55YZB9Oqpf6vRpRbdPo9tX",
    "image": "https://i.scdn.co/image/ab676161000051744f28e73974e52cba42d04bd1"
@@ -44,11 +49,6 @@
    "name": "Leo/need",
    "url": "https://open.spotify.com/artist/7CXyP7IN0L3ySUeIQ6Ymu1",
    "image": "https://i.scdn.co/image/ab67616d00001e02c63e9f758f4e8eceadabc3f0"
-  },
-  {
-   "name": "Aimer",
-   "url": "https://open.spotify.com/artist/0bAsR2unSRpn6BQPEnNlZm",
-   "image": "https://i.scdn.co/image/ab67616100005174ecb2f33d56d05407f877aa81"
   }
  ],
  "tracks": [
@@ -60,18 +60,18 @@
    "image": "https://i.scdn.co/image/ab67616d000048516faeb9a38b4cbfbf7d899b8b"
   },
   {
-   "name": "星を巡る",
-   "url": "https://open.spotify.com/track/6HpdAmRcC6fOnNWLU2pjWD",
-   "artists": "Rokudenashi",
-   "album": "星を巡る",
-   "image": "https://i.scdn.co/image/ab67616d00004851b75756b0d41bbb317e610453"
-  },
-  {
    "name": "幸福刑 (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&MEIKO)",
    "url": "https://open.spotify.com/track/49yCnmyR33GiVZrNDVbHZk",
    "artists": "25時、ナイトコードで。",
    "album": "その絵の名前は/幸福刑",
    "image": "https://i.scdn.co/image/ab67616d000048510c2882dd6e63fa25a1f1678b"
+  },
+  {
+   "name": "星を巡る",
+   "url": "https://open.spotify.com/track/6HpdAmRcC6fOnNWLU2pjWD",
+   "artists": "Rokudenashi",
+   "album": "星を巡る",
+   "image": "https://i.scdn.co/image/ab67616d00004851b75756b0d41bbb317e610453"
   },
   {
    "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
@@ -88,18 +88,18 @@
    "image": "https://i.scdn.co/image/ab67616d0000485133c05e1d08fec494a30bd240"
   },
   {
+   "name": "/SLASH",
+   "url": "https://open.spotify.com/track/1ks9rR9DEVh15kcghIX65I",
+   "artists": "ROF-MAO",
+   "album": "/SLASH",
+   "image": "https://i.scdn.co/image/ab67616d000048518c4795175e03e83ce835d5af"
+  },
+  {
    "name": "sunshine",
    "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
    "artists": "waka",
    "album": "sunshine",
    "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
-  },
-  {
-   "name": "レム",
-   "url": "https://open.spotify.com/track/7jknqnVScv1P6ed2b7YCh1",
-   "artists": "balloon",
-   "album": "レム",
-   "image": "https://i.scdn.co/image/ab67616d00004851726e368c9e9cc4eec8242979"
   },
   {
    "name": "化けの花 (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&KAITO)",
@@ -109,27 +109,45 @@
    "image": "https://i.scdn.co/image/ab67616d000048513c340cb5f99c42267289f43f"
   },
   {
-   "name": "贖罪",
-   "url": "https://open.spotify.com/track/58XxcSRseOVIuBzWlMdZTS",
-   "artists": "傘村トータ",
-   "album": "歩き出すのだ、傘がなくとも。",
-   "image": "https://i.scdn.co/image/ab67616d000048512c95a0737cc2ff7e5f60b631"
+   "name": "わたしのアール",
+   "url": "https://open.spotify.com/track/6FcvYpbnbVqXKRd3Kl9AvC",
+   "artists": "WADATAKEAKI KurageP",
+   "album": "わたしの未成年観測",
+   "image": "https://i.scdn.co/image/ab67616d00004851838599bf66f74d68baa3e183"
   },
   {
-   "name": "少女レイ",
-   "url": "https://open.spotify.com/track/1k5F2EwzptN821wy7cPggG",
-   "artists": "Mikito P",
-   "album": "少女レイ",
-   "image": "https://i.scdn.co/image/ab67616d00004851a95d6a7b750b2d69eb5f2f6b"
+   "name": "レム",
+   "url": "https://open.spotify.com/track/7jknqnVScv1P6ed2b7YCh1",
+   "artists": "balloon",
+   "album": "レム",
+   "image": "https://i.scdn.co/image/ab67616d00004851726e368c9e9cc4eec8242979"
   }
  ],
  "recent": [
+  {
+   "uri": "spotify:playlist:2gFbYD3tAvBm03W05jK9dy",
+   "type": "playlist",
+   "name": "2026.11.",
+   "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-11-15T23:54:26.578Z"
+  },
+  {
+   "uri": "spotify:album:0in7roneAT11AZEowdj56o",
+   "type": "single",
+   "name": "/SLASH",
+   "url": "https://open.spotify.com/album/0in7roneAT11AZEowdj56o",
+   "image": "https://i.scdn.co/image/ab67616d00001e028c4795175e03e83ce835d5af",
+   "subtitle": "ROF-MAO",
+   "playedAt": "2026-11-15T21:00:06.101Z"
+  },
   {
    "uri": "spotify:artist:4IyOW0gzISV2jqbkX78Uyp",
    "type": "artist",
    "name": "ROF-MAO",
    "url": "https://open.spotify.com/artist/4IyOW0gzISV2jqbkX78Uyp",
-   "image": "https://i.scdn.co/image/ab67616100005174d107f13334a871be1a462cc3",
+   "image": "https://i.scdn.co/image/ab67616100005174a98d63c5eaec3ec526556378",
    "subtitle": "",
    "playedAt": "2026-11-13T11:03:05.074Z"
   },
@@ -150,15 +168,6 @@
    "image": "https://i.scdn.co/image/ab67616100005174d103439250c5eb427e98d844",
    "subtitle": "",
    "playedAt": "2026-11-10T14:19:20.400Z"
-  },
-  {
-   "uri": "spotify:playlist:2gFbYD3tAvBm03W05jK9dy",
-   "type": "playlist",
-   "name": "2026.11.",
-   "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
-   "subtitle": "yuna1107",
-   "playedAt": "2026-11-07T11:39:45.960Z"
   },
   {
    "uri": "spotify:playlist:3n95MRT3utQcc0eFzlroJO",
@@ -294,15 +303,6 @@
    "image": "https://mosaic.scdn.co/300/ab67616d00001e02726e368c9e9cc4eec8242979ab67616d00001e028428ef102bb1dd579d053870ab67616d00001e02934b7db2dbd8eb7791a4c4b5ab67616d00001e02e181ac171ce5358285a74536",
    "subtitle": "yuna1107",
    "playedAt": "2026-10-24T06:26:14.123Z"
-  },
-  {
-   "uri": "spotify:playlist:5W0o7mB8fPvG8baR1Lnb4Y",
-   "type": "playlist",
-   "name": "ヴァイオレット・エヴァーガーデン",
-   "url": "https://open.spotify.com/playlist/5W0o7mB8fPvG8baR1Lnb4Y",
-   "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8447c7e3c39f48d76becef0e21",
-   "subtitle": "ぽん吉",
-   "playedAt": "2026-10-24T05:43:38.045Z"
   }
  ],
  "playlists": [
@@ -319,7 +319,7 @@
    "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
    "description": "",
-   "tracks": 27,
+   "tracks": 28,
    "createdAt": "2026-11-02T12:19:04Z"
   },
   {
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-16",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-17",
    "count": 0,
@@ -2472,9 +2466,14 @@
   },
   {
    "date": "2026-11-15",
-   "count": 5,
+   "count": 6,
    "level": 1
+  },
+  {
+   "date": "2026-11-16",
+   "count": 26,
+   "level": 3
   }
  ],
- "updatedAt": "2026-11-15T00:49:01.955Z"
+ "updatedAt": "2026-11-16T00:48:00.385Z"
 }
