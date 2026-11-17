@@ -4,21 +4,16 @@
   "url": "https://github.com/yuna1107-k"
  },
  "totals": {
-  "contributions": 1995,
-  "commits": 1121,
-  "pullRequests": 256,
+  "contributions": 2064,
+  "commits": 1160,
+  "pullRequests": 257,
   "issues": 163,
   "reviews": 0,
-  "private": 1790,
-  "publicRepos": 16,
+  "private": 1854,
+  "publicRepos": 17,
   "privateRepos": 35
  },
  "days": [
-  {
-   "date": "2025-11-16",
-   "level": 0,
-   "count": 0
-  },
   {
    "date": "2025-11-17",
    "level": 1,
@@ -1837,12 +1832,17 @@
   {
    "date": "2026-11-15",
    "level": 1,
-   "count": 11
+   "count": 12
   },
   {
    "date": "2026-11-16",
+   "level": 2,
+   "count": 52
+  },
+  {
+   "date": "2026-11-17",
    "level": 1,
-   "count": 3
+   "count": 19
   }
  ],
  "repositories": [
@@ -1903,19 +1903,19 @@
    "commits": 5
   },
   {
-   "name": "Uyatame-CD-Ripping-Tool-UCRT",
-   "url": "https://github.com/uyatame/Uyatame-CD-Ripping-Tool-UCRT",
+   "name": "mail",
+   "url": "https://github.com/yuna1107-k/mail",
    "isPrivate": false,
-   "language": "Kotlin",
-   "color": "#A97BFF",
-   "commits": 3
+   "language": "Python",
+   "color": "#3572A5",
+   "commits": 4
   }
  ],
  "languages": [
   {
    "name": "Python",
    "color": "#3572A5",
-   "commits": 39
+   "commits": 43
   },
   {
    "name": "Dart",
@@ -1948,5 +1948,5 @@
    "commits": 3
   }
  ],
- "updatedAt": "2026-11-16T00:48:04.988Z"
+ "updatedAt": "2026-11-17T03:27:28.649Z"
 }

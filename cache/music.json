@@ -95,6 +95,20 @@
    "image": "https://i.scdn.co/image/ab67616d000048518c4795175e03e83ce835d5af"
   },
   {
+   "name": "贖罪",
+   "url": "https://open.spotify.com/track/58XxcSRseOVIuBzWlMdZTS",
+   "artists": "傘村トータ",
+   "album": "歩き出すのだ、傘がなくとも。",
+   "image": "https://i.scdn.co/image/ab67616d000048512c95a0737cc2ff7e5f60b631"
+  },
+  {
+   "name": "Creep",
+   "url": "https://open.spotify.com/track/0coLLkU3xh2fEoYFs4ai6Q",
+   "artists": "TOGENASHI TOGEARI",
+   "album": "Let's give them the pinky finger",
+   "image": "https://i.scdn.co/image/ab67616d000048516b080a6d3c7e58247fadf449"
+  },
+  {
    "name": "sunshine",
    "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
    "artists": "waka",
@@ -107,20 +121,6 @@
    "artists": "25時、ナイトコードで。",
    "album": "エンパープル/化けの花",
    "image": "https://i.scdn.co/image/ab67616d000048513c340cb5f99c42267289f43f"
-  },
-  {
-   "name": "わたしのアール",
-   "url": "https://open.spotify.com/track/6FcvYpbnbVqXKRd3Kl9AvC",
-   "artists": "WADATAKEAKI KurageP",
-   "album": "わたしの未成年観測",
-   "image": "https://i.scdn.co/image/ab67616d00004851838599bf66f74d68baa3e183"
-  },
-  {
-   "name": "レム",
-   "url": "https://open.spotify.com/track/7jknqnVScv1P6ed2b7YCh1",
-   "artists": "balloon",
-   "album": "レム",
-   "image": "https://i.scdn.co/image/ab67616d00004851726e368c9e9cc4eec8242979"
   }
  ],
  "recent": [
@@ -131,7 +131,7 @@
    "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
    "subtitle": "yuna1107",
-   "playedAt": "2026-11-15T23:54:26.578Z"
+   "playedAt": "2026-11-16T05:30:36.271Z"
   },
   {
    "uri": "spotify:album:0in7roneAT11AZEowdj56o",
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-17",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-18",
    "count": 0,
@@ -2471,9 +2465,14 @@
   },
   {
    "date": "2026-11-16",
-   "count": 26,
+   "count": 30,
    "level": 3
+  },
+  {
+   "date": "2026-11-17",
+   "count": 0,
+   "level": 0
   }
  ],
- "updatedAt": "2026-11-16T00:48:00.385Z"
+ "updatedAt": "2026-11-17T03:27:22.017Z"
 }
