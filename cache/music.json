@@ -67,20 +67,6 @@
    "image": "https://i.scdn.co/image/ab67616d000048510c2882dd6e63fa25a1f1678b"
   },
   {
-   "name": "星を巡る",
-   "url": "https://open.spotify.com/track/6HpdAmRcC6fOnNWLU2pjWD",
-   "artists": "Rokudenashi",
-   "album": "星を巡る",
-   "image": "https://i.scdn.co/image/ab67616d00004851b75756b0d41bbb317e610453"
-  },
-  {
-   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
-   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
-   "artists": "25時、ナイトコードで。",
-   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
-   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
-  },
-  {
    "name": "生きていたんだよな",
    "url": "https://open.spotify.com/track/69jrtjVjyzRyPCDg0dHYCX",
    "artists": "Aimyon",
@@ -88,11 +74,11 @@
    "image": "https://i.scdn.co/image/ab67616d0000485133c05e1d08fec494a30bd240"
   },
   {
-   "name": "/SLASH",
-   "url": "https://open.spotify.com/track/1ks9rR9DEVh15kcghIX65I",
-   "artists": "ROF-MAO",
-   "album": "/SLASH",
-   "image": "https://i.scdn.co/image/ab67616d000048518c4795175e03e83ce835d5af"
+   "name": "星を巡る",
+   "url": "https://open.spotify.com/track/6HpdAmRcC6fOnNWLU2pjWD",
+   "artists": "Rokudenashi",
+   "album": "星を巡る",
+   "image": "https://i.scdn.co/image/ab67616d00004851b75756b0d41bbb317e610453"
   },
   {
    "name": "贖罪",
@@ -102,25 +88,39 @@
    "image": "https://i.scdn.co/image/ab67616d000048512c95a0737cc2ff7e5f60b631"
   },
   {
+   "name": "/SLASH",
+   "url": "https://open.spotify.com/track/1ks9rR9DEVh15kcghIX65I",
+   "artists": "ROF-MAO",
+   "album": "/SLASH",
+   "image": "https://i.scdn.co/image/ab67616d00004851e3c64dc83fa99f89734129d4"
+  },
+  {
+   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
+   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
+   "artists": "25時、ナイトコードで。",
+   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
+   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
+  },
+  {
+   "name": "わたしのアール",
+   "url": "https://open.spotify.com/track/6FcvYpbnbVqXKRd3Kl9AvC",
+   "artists": "WADATAKEAKI KurageP",
+   "album": "わたしの未成年観測",
+   "image": "https://i.scdn.co/image/ab67616d00004851838599bf66f74d68baa3e183"
+  },
+  {
+   "name": "酸欠少女",
+   "url": "https://open.spotify.com/track/2RZXA7qGu9Ei3iNpKhv4TP",
+   "artists": "Sayuri",
+   "album": "酸欠少女",
+   "image": "https://i.scdn.co/image/ab67616d00004851fbef4bb6c909795b8f8aab58"
+  },
+  {
    "name": "Creep",
    "url": "https://open.spotify.com/track/0coLLkU3xh2fEoYFs4ai6Q",
    "artists": "TOGENASHI TOGEARI",
    "album": "Let's give them the pinky finger",
    "image": "https://i.scdn.co/image/ab67616d000048516b080a6d3c7e58247fadf449"
-  },
-  {
-   "name": "sunshine",
-   "url": "https://open.spotify.com/track/2ofronZaDJUQFzJFcdREYN",
-   "artists": "waka",
-   "album": "sunshine",
-   "image": "https://i.scdn.co/image/ab67616d0000485150b3caee4618d6e63fd27056"
-  },
-  {
-   "name": "化けの花 (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&KAITO)",
-   "url": "https://open.spotify.com/track/4MOfm19a8JZvAEfcWJLGXV",
-   "artists": "25時、ナイトコードで。",
-   "album": "エンパープル/化けの花",
-   "image": "https://i.scdn.co/image/ab67616d000048513c340cb5f99c42267289f43f"
   }
  ],
  "recent": [
@@ -131,7 +131,7 @@
    "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
    "subtitle": "yuna1107",
-   "playedAt": "2026-11-16T05:30:36.271Z"
+   "playedAt": "2026-11-17T23:57:59.311Z"
   },
   {
    "uri": "spotify:album:0in7roneAT11AZEowdj56o",
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-18",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-19",
    "count": 0,
@@ -2241,7 +2235,7 @@
   {
    "date": "2026-10-02",
    "count": 58,
-   "level": 3
+   "level": 4
   },
   {
    "date": "2026-10-03",
@@ -2291,7 +2285,7 @@
   {
    "date": "2026-10-12",
    "count": 24,
-   "level": 2
+   "level": 3
   },
   {
    "date": "2026-10-13",
@@ -2306,7 +2300,7 @@
   {
    "date": "2026-10-15",
    "count": 24,
-   "level": 2
+   "level": 3
   },
   {
    "date": "2026-10-16",
@@ -2441,7 +2435,7 @@
   {
    "date": "2026-11-11",
    "count": 11,
-   "level": 2
+   "level": 1
   },
   {
    "date": "2026-11-12",
@@ -2470,9 +2464,14 @@
   },
   {
    "date": "2026-11-17",
-   "count": 0,
-   "level": 0
+   "count": 19,
+   "level": 2
+  },
+  {
+   "date": "2026-11-18",
+   "count": 15,
+   "level": 2
   }
  ],
- "updatedAt": "2026-11-17T03:27:22.017Z"
+ "updatedAt": "2026-11-18T02:45:15.528Z"
 }
