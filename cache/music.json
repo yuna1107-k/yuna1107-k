@@ -74,13 +74,6 @@
    "image": "https://i.scdn.co/image/ab67616d0000485133c05e1d08fec494a30bd240"
   },
   {
-   "name": "星を巡る",
-   "url": "https://open.spotify.com/track/6HpdAmRcC6fOnNWLU2pjWD",
-   "artists": "Rokudenashi",
-   "album": "星を巡る",
-   "image": "https://i.scdn.co/image/ab67616d00004851b75756b0d41bbb317e610453"
-  },
-  {
    "name": "贖罪",
    "url": "https://open.spotify.com/track/58XxcSRseOVIuBzWlMdZTS",
    "artists": "傘村トータ",
@@ -95,18 +88,18 @@
    "image": "https://i.scdn.co/image/ab67616d00004851e3c64dc83fa99f89734129d4"
   },
   {
-   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
-   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
-   "artists": "25時、ナイトコードで。",
-   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
-   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
-  },
-  {
    "name": "わたしのアール",
    "url": "https://open.spotify.com/track/6FcvYpbnbVqXKRd3Kl9AvC",
    "artists": "WADATAKEAKI KurageP",
    "album": "わたしの未成年観測",
    "image": "https://i.scdn.co/image/ab67616d00004851838599bf66f74d68baa3e183"
+  },
+  {
+   "name": "星を巡る",
+   "url": "https://open.spotify.com/track/6HpdAmRcC6fOnNWLU2pjWD",
+   "artists": "Rokudenashi",
+   "album": "星を巡る",
+   "image": "https://i.scdn.co/image/ab67616d00004851b75756b0d41bbb317e610453"
   },
   {
    "name": "酸欠少女",
@@ -121,6 +114,13 @@
    "artists": "TOGENASHI TOGEARI",
    "album": "Let's give them the pinky finger",
    "image": "https://i.scdn.co/image/ab67616d000048516b080a6d3c7e58247fadf449"
+  },
+  {
+   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
+   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
+   "artists": "25時、ナイトコードで。",
+   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
+   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
   }
  ],
  "recent": [
@@ -131,7 +131,7 @@
    "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
    "subtitle": "yuna1107",
-   "playedAt": "2026-11-17T23:57:59.311Z"
+   "playedAt": "2026-11-18T00:09:47.979Z"
   },
   {
    "uri": "spotify:album:0in7roneAT11AZEowdj56o",
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-19",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-20",
    "count": 0,
@@ -2285,7 +2279,7 @@
   {
    "date": "2026-10-12",
    "count": 24,
-   "level": 3
+   "level": 2
   },
   {
    "date": "2026-10-13",
@@ -2300,7 +2294,7 @@
   {
    "date": "2026-10-15",
    "count": 24,
-   "level": 3
+   "level": 2
   },
   {
    "date": "2026-10-16",
@@ -2469,9 +2463,14 @@
   },
   {
    "date": "2026-11-18",
+   "count": 30,
+   "level": 3
+  },
+  {
+   "date": "2026-11-19",
    "count": 15,
    "level": 2
   }
  ],
- "updatedAt": "2026-11-18T02:45:15.528Z"
+ "updatedAt": "2026-11-19T02:19:11.017Z"
 }
