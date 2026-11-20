@@ -4,26 +4,16 @@
   "url": "https://github.com/yuna1107-k"
  },
  "totals": {
-  "contributions": 2061,
-  "commits": 1160,
-  "pullRequests": 255,
+  "contributions": 2097,
+  "commits": 1172,
+  "pullRequests": 253,
   "issues": 163,
   "reviews": 0,
-  "private": 1852,
+  "private": 1890,
   "publicRepos": 17,
-  "privateRepos": 35
+  "privateRepos": 37
  },
  "days": [
-  {
-   "date": "2025-11-18",
-   "level": 1,
-   "count": 3
-  },
-  {
-   "date": "2025-11-19",
-   "level": 1,
-   "count": 2
-  },
   {
    "date": "2025-11-20",
    "level": 0,
@@ -1702,7 +1692,7 @@
   {
    "date": "2026-10-21",
    "level": 1,
-   "count": 19
+   "count": 22
   },
   {
    "date": "2026-10-22",
@@ -1843,6 +1833,16 @@
    "date": "2026-11-18",
    "level": 0,
    "count": 0
+  },
+  {
+   "date": "2026-11-19",
+   "level": 2,
+   "count": 38
+  },
+  {
+   "date": "2026-11-20",
+   "level": 0,
+   "count": 0
   }
  ],
  "repositories": [
@@ -1895,20 +1895,20 @@
    "commits": 8
   },
   {
+   "name": "Uyatame-CD-Ripping-Tool-UCRT",
+   "url": "https://github.com/uyatame/Uyatame-CD-Ripping-Tool-UCRT",
+   "isPrivate": false,
+   "language": "Kotlin",
+   "color": "#A97BFF",
+   "commits": 6
+  },
+  {
    "name": "HCE_Android",
    "url": "https://github.com/yuna1107-k/HCE_Android",
    "isPrivate": false,
    "language": "Kotlin",
    "color": "#A97BFF",
    "commits": 5
-  },
-  {
-   "name": "mail",
-   "url": "https://github.com/yuna1107-k/mail",
-   "isPrivate": false,
-   "language": "Python",
-   "color": "#3572A5",
-   "commits": 4
   }
  ],
  "languages": [
@@ -1940,7 +1940,7 @@
   {
    "name": "Kotlin",
    "color": "#A97BFF",
-   "commits": 8
+   "commits": 11
   },
   {
    "name": "C++",
@@ -1948,5 +1948,5 @@
    "commits": 3
   }
  ],
- "updatedAt": "2026-11-18T02:45:21.688Z"
+ "updatedAt": "2026-11-20T02:02:10.399Z"
 }

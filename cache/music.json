@@ -125,6 +125,15 @@
  ],
  "recent": [
   {
+   "uri": "spotify:playlist:4Hw5rkEgCB9rA9FlASyFad",
+   "type": "playlist",
+   "name": "Daily Mix 1 of 2026.11.19",
+   "url": "https://open.spotify.com/playlist/4Hw5rkEgCB9rA9FlASyFad",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e0209d5d403b066e2995d4e787eab67616d00001e025ee78302fe48134795016cbfab67616d00001e028b75f8feeada19a8df25606fab67616d00001e02956d65faaaaff01d02509c7d",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-11-20T01:41:43.729Z"
+  },
+  {
    "uri": "spotify:playlist:2gFbYD3tAvBm03W05jK9dy",
    "type": "playlist",
    "name": "2026.11.",
@@ -294,18 +303,17 @@
    "image": "https://i.scdn.co/image/ab67616d00001e02ae21c3fceaa3769f1bc8c054",
    "subtitle": "STUDY WITH MIKU",
    "playedAt": "2026-10-24T15:00:19.152Z"
-  },
-  {
-   "uri": "spotify:playlist:5woINc9obVNGD5pPFmc0RH",
-   "type": "playlist",
-   "name": "レム Radio of 2026.10.22",
-   "url": "https://open.spotify.com/playlist/5woINc9obVNGD5pPFmc0RH",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e02726e368c9e9cc4eec8242979ab67616d00001e028428ef102bb1dd579d053870ab67616d00001e02934b7db2dbd8eb7791a4c4b5ab67616d00001e02e181ac171ce5358285a74536",
-   "subtitle": "yuna1107",
-   "playedAt": "2026-10-24T06:26:14.123Z"
   }
  ],
  "playlists": [
+  {
+   "name": "Daily Mix 1 of 2026.11.19",
+   "url": "https://open.spotify.com/playlist/4Hw5rkEgCB9rA9FlASyFad",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e0209d5d403b066e2995d4e787eab67616d00001e025ee78302fe48134795016cbfab67616d00001e028b75f8feeada19a8df25606fab67616d00001e02956d65faaaaff01d02509c7d",
+   "description": "",
+   "tracks": 50,
+   "createdAt": "2026-11-19T04:23:01Z"
+  },
   {
    "name": "yuna1107's selection",
    "url": "https://open.spotify.com/playlist/3n95MRT3utQcc0eFzlroJO",
@@ -321,23 +329,9 @@
    "description": "",
    "tracks": 28,
    "createdAt": "2026-11-02T12:19:04Z"
-  },
-  {
-   "name": "2020年代Mix of 2026.10.30",
-   "url": "https://open.spotify.com/playlist/2gJdwkFW5GwlZPhUgCeQmZ",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e0203131cb44d03b2fb3a5ba974ab67616d00001e0266bcc4d2089c8fa85514d386ab67616d00001e02775e8184725e0fb89337dd9aab67616d00001e02e181ac171ce5358285a74536",
-   "description": "",
-   "tracks": 50,
-   "createdAt": "2026-10-30T06:25:28Z"
   }
  ],
  "days": [
-  {
-   "date": "2025-11-20",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-21",
    "count": 0,
@@ -2429,7 +2423,7 @@
   {
    "date": "2026-11-11",
    "count": 11,
-   "level": 1
+   "level": 2
   },
   {
    "date": "2026-11-12",
@@ -2468,9 +2462,14 @@
   },
   {
    "date": "2026-11-19",
-   "count": 15,
+   "count": 24,
    "level": 2
+  },
+  {
+   "date": "2026-11-20",
+   "count": 10,
+   "level": 1
   }
  ],
- "updatedAt": "2026-11-19T02:19:11.017Z"
+ "updatedAt": "2026-11-20T02:02:04.306Z"
 }
