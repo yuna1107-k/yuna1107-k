@@ -26,11 +26,6 @@
    "image": "https://i.scdn.co/image/ab67616100005174a98d63c5eaec3ec526556378"
   },
   {
-   "name": "waka",
-   "url": "https://open.spotify.com/artist/55YZB9Oqpf6vRpRbdPo9tX",
-   "image": "https://i.scdn.co/image/ab676161000051744f28e73974e52cba42d04bd1"
-  },
-  {
    "name": "STUDY WITH MIKU",
    "url": "https://open.spotify.com/artist/46j7YE7YDwC1zb7RnoyLiV",
    "image": "https://i.scdn.co/image/ab67616d00001e02362d9c74cd67cc38326ef361"
@@ -49,6 +44,11 @@
    "name": "Leo/need",
    "url": "https://open.spotify.com/artist/7CXyP7IN0L3ySUeIQ6Ymu1",
    "image": "https://i.scdn.co/image/ab67616d00001e02c63e9f758f4e8eceadabc3f0"
+  },
+  {
+   "name": "Aimer",
+   "url": "https://open.spotify.com/artist/0bAsR2unSRpn6BQPEnNlZm",
+   "image": "https://i.scdn.co/image/ab67616100005174ecb2f33d56d05407f877aa81"
   }
  ],
  "tracks": [
@@ -74,13 +74,6 @@
    "image": "https://i.scdn.co/image/ab67616d0000485133c05e1d08fec494a30bd240"
   },
   {
-   "name": "贖罪",
-   "url": "https://open.spotify.com/track/58XxcSRseOVIuBzWlMdZTS",
-   "artists": "傘村トータ",
-   "album": "歩き出すのだ、傘がなくとも。",
-   "image": "https://i.scdn.co/image/ab67616d000048512c95a0737cc2ff7e5f60b631"
-  },
-  {
    "name": "/SLASH",
    "url": "https://open.spotify.com/track/1ks9rR9DEVh15kcghIX65I",
    "artists": "ROF-MAO",
@@ -93,13 +86,6 @@
    "artists": "WADATAKEAKI KurageP",
    "album": "わたしの未成年観測",
    "image": "https://i.scdn.co/image/ab67616d00004851838599bf66f74d68baa3e183"
-  },
-  {
-   "name": "星を巡る",
-   "url": "https://open.spotify.com/track/6HpdAmRcC6fOnNWLU2pjWD",
-   "artists": "Rokudenashi",
-   "album": "星を巡る",
-   "image": "https://i.scdn.co/image/ab67616d00004851b75756b0d41bbb317e610453"
   },
   {
    "name": "酸欠少女",
@@ -116,11 +102,25 @@
    "image": "https://i.scdn.co/image/ab67616d000048516b080a6d3c7e58247fadf449"
   },
   {
-   "name": "悔やむと書いてミライ (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&初音ミク)",
-   "url": "https://open.spotify.com/track/3Ic8LWEJqtJ7XrAylWHosN",
+   "name": "贖罪",
+   "url": "https://open.spotify.com/track/58XxcSRseOVIuBzWlMdZTS",
+   "artists": "傘村トータ",
+   "album": "歩き出すのだ、傘がなくとも。",
+   "image": "https://i.scdn.co/image/ab67616d000048512c95a0737cc2ff7e5f60b631"
+  },
+  {
+   "name": "If there is not such a life",
+   "url": "https://open.spotify.com/track/6DyZR5AePalnv39OzWgPUr",
+   "artists": "Tsukuyomi",
+   "album": "Crescent",
+   "image": "https://i.scdn.co/image/ab67616d0000485173637d757f7618d78b7aa933"
+  },
+  {
+   "name": "化けの花 (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&KAITO)",
+   "url": "https://open.spotify.com/track/4MOfm19a8JZvAEfcWJLGXV",
    "artists": "25時、ナイトコードで。",
-   "album": "悔やむと書いてミライ/携帯恋話/ジャックポットサッドガール",
-   "image": "https://i.scdn.co/image/ab67616d000048518c489aa548f8ad7a4f078abd"
+   "album": "エンパープル/化けの花",
+   "image": "https://i.scdn.co/image/ab67616d000048513c340cb5f99c42267289f43f"
   }
  ],
  "recent": [
@@ -131,7 +131,7 @@
    "url": "https://open.spotify.com/playlist/4Hw5rkEgCB9rA9FlASyFad",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e0209d5d403b066e2995d4e787eab67616d00001e025ee78302fe48134795016cbfab67616d00001e028b75f8feeada19a8df25606fab67616d00001e02956d65faaaaff01d02509c7d",
    "subtitle": "yuna1107",
-   "playedAt": "2026-11-20T01:41:43.729Z"
+   "playedAt": "2026-11-20T11:37:25.404Z"
   },
   {
    "uri": "spotify:playlist:2gFbYD3tAvBm03W05jK9dy",
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-21",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-22",
    "count": 0,
@@ -2423,7 +2417,7 @@
   {
    "date": "2026-11-11",
    "count": 11,
-   "level": 2
+   "level": 1
   },
   {
    "date": "2026-11-12",
@@ -2467,9 +2461,14 @@
   },
   {
    "date": "2026-11-20",
-   "count": 10,
+   "count": 34,
+   "level": 3
+  },
+  {
+   "date": "2026-11-21",
+   "count": 5,
    "level": 1
   }
  ],
- "updatedAt": "2026-11-20T02:02:04.306Z"
+ "updatedAt": "2026-11-21T01:59:26.866Z"
 }
