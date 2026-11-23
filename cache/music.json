@@ -81,20 +81,6 @@
    "image": "https://i.scdn.co/image/ab67616d00004851e3c64dc83fa99f89734129d4"
   },
   {
-   "name": "わたしのアール",
-   "url": "https://open.spotify.com/track/6FcvYpbnbVqXKRd3Kl9AvC",
-   "artists": "WADATAKEAKI KurageP",
-   "album": "わたしの未成年観測",
-   "image": "https://i.scdn.co/image/ab67616d00004851838599bf66f74d68baa3e183"
-  },
-  {
-   "name": "酸欠少女",
-   "url": "https://open.spotify.com/track/2RZXA7qGu9Ei3iNpKhv4TP",
-   "artists": "Sayuri",
-   "album": "酸欠少女",
-   "image": "https://i.scdn.co/image/ab67616d00004851fbef4bb6c909795b8f8aab58"
-  },
-  {
    "name": "Creep",
    "url": "https://open.spotify.com/track/0coLLkU3xh2fEoYFs4ai6Q",
    "artists": "TOGENASHI TOGEARI",
@@ -116,22 +102,36 @@
    "image": "https://i.scdn.co/image/ab67616d0000485173637d757f7618d78b7aa933"
   },
   {
-   "name": "化けの花 (feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&KAITO)",
-   "url": "https://open.spotify.com/track/4MOfm19a8JZvAEfcWJLGXV",
-   "artists": "25時、ナイトコードで。",
-   "album": "エンパープル/化けの花",
-   "image": "https://i.scdn.co/image/ab67616d000048513c340cb5f99c42267289f43f"
+   "name": "わたしのアール",
+   "url": "https://open.spotify.com/track/6FcvYpbnbVqXKRd3Kl9AvC",
+   "artists": "WADATAKEAKI KurageP",
+   "album": "わたしの未成年観測",
+   "image": "https://i.scdn.co/image/ab67616d00004851838599bf66f74d68baa3e183"
+  },
+  {
+   "name": "酸欠少女",
+   "url": "https://open.spotify.com/track/2RZXA7qGu9Ei3iNpKhv4TP",
+   "artists": "Sayuri",
+   "album": "酸欠少女",
+   "image": "https://i.scdn.co/image/ab67616d00004851fbef4bb6c909795b8f8aab58"
+  },
+  {
+   "name": "たぶん人生はバグだらけ",
+   "url": "https://open.spotify.com/track/0IGcerMUUScgG4BWrbm2bx",
+   "artists": "あおぎり高校, 栗駒こまる, 千代浦蝶美, 我部りえる, エトラ, ぷわぷわぽぷら",
+   "album": "あおバム",
+   "image": "https://i.scdn.co/image/ab67616d000048516ffd123b699018319d1f1205"
   }
  ],
  "recent": [
   {
-   "uri": "spotify:playlist:4Hw5rkEgCB9rA9FlASyFad",
-   "type": "playlist",
-   "name": "Daily Mix 1 of 2026.11.19",
-   "url": "https://open.spotify.com/playlist/4Hw5rkEgCB9rA9FlASyFad",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e0209d5d403b066e2995d4e787eab67616d00001e025ee78302fe48134795016cbfab67616d00001e028b75f8feeada19a8df25606fab67616d00001e02956d65faaaaff01d02509c7d",
-   "subtitle": "yuna1107",
-   "playedAt": "2026-11-21T09:27:46.877Z"
+   "uri": "spotify:artist:46j7YE7YDwC1zb7RnoyLiV",
+   "type": "artist",
+   "name": "STUDY WITH MIKU",
+   "url": "https://open.spotify.com/artist/46j7YE7YDwC1zb7RnoyLiV",
+   "image": "https://i.scdn.co/image/ab67616d00001e02362d9c74cd67cc38326ef361",
+   "subtitle": "",
+   "playedAt": "2026-11-22T21:00:06.025Z"
   },
   {
    "uri": "spotify:playlist:2gFbYD3tAvBm03W05jK9dy",
@@ -140,7 +140,16 @@
    "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
    "subtitle": "yuna1107",
-   "playedAt": "2026-11-18T00:09:47.979Z"
+   "playedAt": "2026-11-22T16:42:43.220Z"
+  },
+  {
+   "uri": "spotify:playlist:4Hw5rkEgCB9rA9FlASyFad",
+   "type": "playlist",
+   "name": "Daily Mix 1 of 2026.11.19",
+   "url": "https://open.spotify.com/playlist/4Hw5rkEgCB9rA9FlASyFad",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e0209d5d403b066e2995d4e787eab67616d00001e025ee78302fe48134795016cbfab67616d00001e028b75f8feeada19a8df25606fab67616d00001e02956d65faaaaff01d02509c7d",
+   "subtitle": "yuna1107",
+   "playedAt": "2026-11-21T09:27:46.877Z"
   },
   {
    "uri": "spotify:album:0in7roneAT11AZEowdj56o",
@@ -186,15 +195,6 @@
    "image": "https://mosaic.scdn.co/300/ab67616d00001e026faeb9a38b4cbfbf7d899b8bab67616d00001e0279e1ca40773449b7a8c20d5fab67616d00001e02cf88bd1c6d3bfd3ac34605c8ab67616d00001e02f724e5bdf4ae3e50082c2403",
    "subtitle": "yuna1107",
    "playedAt": "2026-11-06T21:00:06.358Z"
-  },
-  {
-   "uri": "spotify:artist:46j7YE7YDwC1zb7RnoyLiV",
-   "type": "artist",
-   "name": "STUDY WITH MIKU",
-   "url": "https://open.spotify.com/artist/46j7YE7YDwC1zb7RnoyLiV",
-   "image": "https://i.scdn.co/image/ab67616d00001e02362d9c74cd67cc38326ef361",
-   "subtitle": "",
-   "playedAt": "2026-11-06T01:40:44.327Z"
   },
   {
    "uri": "spotify:album:5lmD4sG9tiyZf6yTGz0NMx",
@@ -327,17 +327,11 @@
    "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
    "description": "",
-   "tracks": 29,
+   "tracks": 30,
    "createdAt": "2026-11-02T12:19:04Z"
   }
  ],
  "days": [
-  {
-   "date": "2025-11-23",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-24",
    "count": 0,
@@ -2467,7 +2461,12 @@
    "date": "2026-11-22",
    "count": 1,
    "level": 1
+  },
+  {
+   "date": "2026-11-23",
+   "count": 34,
+   "level": 3
   }
  ],
- "updatedAt": "2026-11-22T00:59:04.066Z"
+ "updatedAt": "2026-11-23T01:25:57.160Z"
 }
