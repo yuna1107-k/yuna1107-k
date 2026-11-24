@@ -28,7 +28,7 @@
   {
    "name": "STUDY WITH MIKU",
    "url": "https://open.spotify.com/artist/46j7YE7YDwC1zb7RnoyLiV",
-   "image": "https://i.scdn.co/image/ab67616d00001e02362d9c74cd67cc38326ef361"
+   "image": "https://i.scdn.co/image/ab67616d00001e027ea8fc5b4965afa1ec80aa94"
   },
   {
    "name": "*Luna",
@@ -129,7 +129,7 @@
    "type": "artist",
    "name": "STUDY WITH MIKU",
    "url": "https://open.spotify.com/artist/46j7YE7YDwC1zb7RnoyLiV",
-   "image": "https://i.scdn.co/image/ab67616d00001e02362d9c74cd67cc38326ef361",
+   "image": "https://i.scdn.co/image/ab67616d00001e027ea8fc5b4965afa1ec80aa94",
    "subtitle": "",
    "playedAt": "2026-11-22T21:00:06.025Z"
   },
@@ -332,12 +332,6 @@
   }
  ],
  "days": [
-  {
-   "date": "2025-11-24",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-25",
    "count": 0,
@@ -2455,7 +2449,7 @@
   {
    "date": "2026-11-21",
    "count": 10,
-   "level": 1
+   "level": 2
   },
   {
    "date": "2026-11-22",
@@ -2464,9 +2458,14 @@
   },
   {
    "date": "2026-11-23",
-   "count": 34,
+   "count": 35,
    "level": 3
+  },
+  {
+   "date": "2026-11-24",
+   "count": 8,
+   "level": 1
   }
  ],
- "updatedAt": "2026-11-23T01:25:57.160Z"
+ "updatedAt": "2026-11-24T05:09:51.171Z"
 }
