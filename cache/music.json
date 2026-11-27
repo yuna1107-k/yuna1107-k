@@ -307,6 +307,14 @@
  ],
  "playlists": [
   {
+   "name": "Daily Mix 1 of 2026.11.26",
+   "url": "https://open.spotify.com/playlist/68Vsu8O07i3bhWo8eQ8x8K",
+   "image": "https://mosaic.scdn.co/300/ab67616d00001e021647da1817af6d7dadb69ab9ab67616d00001e024c5fbc140ca7885b0e21e3b5ab67616d00001e0281ef68ebba2055cc1de00278ab67616d00001e0293370e52081d8ca6bda63bd3",
+   "description": "",
+   "tracks": 50,
+   "createdAt": "2026-11-26T05:21:35Z"
+  },
+  {
    "name": "Daily Mix 1 of 2026.11.19",
    "url": "https://open.spotify.com/playlist/4Hw5rkEgCB9rA9FlASyFad",
    "image": "https://mosaic.scdn.co/300/ab67616d00001e0209d5d403b066e2995d4e787eab67616d00001e025ee78302fe48134795016cbfab67616d00001e028b75f8feeada19a8df25606fab67616d00001e02956d65faaaaff01d02509c7d",
@@ -321,23 +329,9 @@
    "description": "",
    "tracks": 29,
    "createdAt": "2026-11-06T09:42:37Z"
-  },
-  {
-   "name": "2026.11.",
-   "url": "https://open.spotify.com/playlist/2gFbYD3tAvBm03W05jK9dy",
-   "image": "https://mosaic.scdn.co/300/ab67616d00001e0233c05e1d08fec494a30bd240ab67616d00001e028abcade3933e1316a11880b4ab67616d00001e02ca953009fab631f7ffd31a87ab67616d00001e02fbef4bb6c909795b8f8aab58",
-   "description": "",
-   "tracks": 30,
-   "createdAt": "2026-11-02T12:19:04Z"
   }
  ],
  "days": [
-  {
-   "date": "2025-11-27",
-   "count": 0,
-   "level": 0,
-   "noData": true
-  },
   {
    "date": "2025-11-28",
    "count": 0,
@@ -2437,7 +2431,7 @@
   {
    "date": "2026-11-21",
    "count": 10,
-   "level": 1
+   "level": 2
   },
   {
    "date": "2026-11-22",
@@ -2461,9 +2455,14 @@
   },
   {
    "date": "2026-11-26",
-   "count": 0,
-   "level": 0
+   "count": 51,
+   "level": 4
+  },
+  {
+   "date": "2026-11-27",
+   "count": 1,
+   "level": 1
   }
  ],
- "updatedAt": "2026-11-26T03:23:24.768Z"
+ "updatedAt": "2026-11-27T03:30:54.991Z"
 }
